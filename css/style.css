@@ -317,6 +317,11 @@ a:hover {
   padding-left: 1.5rem;
   color: grey;
 }
+@media screen and (min-width: 43.6875rem) {
+  .signup__textarea {
+    width: 400px;
+  }
+}
 
 footer {
   position: relative;
