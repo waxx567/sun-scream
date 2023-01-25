@@ -17,10 +17,10 @@ $fa-font-path: "./webfonts";
 @mixin breakpoint($size) {
     
     $breakpoints: ( // map
-        small: 31.1875rem, // 499px
-        medium: 43.6875rem, // 699px
-        large: 62.4375rem, // 999px
-        xlarge: 87.4375rem // 1399px
+        small: 31.1875rem, // 499px // 375px
+        medium: 43.6875rem, // 699px // 560px
+        large: 62.4375rem, // 999px // 799px
+        xlarge: 87.4375rem // 1399px // 1023px // 1399px xxl
     );
 
     $breakpoint-value: map-get($map: $breakpoints, $key: $size);
