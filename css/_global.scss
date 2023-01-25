@@ -1,12 +1,15 @@
 html { 
     font-size: 100%; // allows user to control zoom in own browser
 }
-*, *:after, *:before { // applies to all elements in all states 
+
+*, *:after, *:before { 
     box-sizing: border-box; // includes padding in width as size changes
 }
-* { // Universal font colour 
+
+* { 
     color: hsla(0, 0%, 100%, 1);
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -15,26 +18,32 @@ body {
     font-size: calc(1rem + 0.75vw); // 16px is the base
     line-height: 1.5; // spacing between lines on screen
 }
+
 a, p { 
     font-size: 1em;
     color: hsla(0, 0%, 95%, 0.9);
     text-decoration: none;
 }
+
 a {
     font-family: $font-title;
 }
+
 p { 
     padding: 0 2rem;
     font-family: $font-body;
     font-size: 0.825em;
 }
+
 h1, h2, h3, h4 {
     padding: 0 2rem; 
     font-family: $font-title;
 }
+
 h1 { 
     font-size: 1.4em; 
 }
+
 h2 { 
     font-size: 1.15625em; 
 }
