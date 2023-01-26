@@ -1,5 +1,38 @@
 .intro-container {
     background-color: $introBlue;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+.intro__pic,
+.intro__heading,
+.intro__text,
+.intro__button,
+.intro__bg {
+    position: relative;
+}
+
+.intro-picture {
+    
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
+
+.intro__pic,
+.intro__heading,
+.intro__text,
+.intro__button {
+    z-index: 2;
+}
+
+.intro__bg {
+    z-index: 0;
 }
 
 

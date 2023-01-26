@@ -167,33 +167,62 @@ button:hover {
 .header-links {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  gap: 2rem;
+  gap: 1.8rem;
   align-items: center;
   margin-top: 0.25rem;
 }
 @media screen and (min-width: 35rem) {
   .header-links {
-    gap: 2.25rem;
+    gap: 2.2rem;
   }
 }
 @media screen and (min-width: 49rem) {
   .header-links {
-    gap: 2.5rem;
+    gap: 2.25rem;
   }
 }
 @media screen and (min-width: 63rem) {
   .header-links {
-    gap: 2.75rem;
+    gap: 2.5rem;
   }
 }
 @media screen and (min-width: 87rem) {
   .header-links {
-    gap: 3rem;
+    gap: 2.75rem;
   }
 }
 
 .intro-container {
   background-color: hsl(217deg, 28%, 15%);
+}
+.intro-container img {
+  width: 100%;
+  display: block;
+}
+
+.intro__pic,
+.intro__heading,
+.intro__text,
+.intro__button,
+.intro__bg {
+  position: relative;
+}
+
+.intro-picture img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.intro__pic,
+.intro__heading,
+.intro__text,
+.intro__button {
+  z-index: 2;
+}
+
+.intro__bg {
+  z-index: 0;
 }
 
 /*
