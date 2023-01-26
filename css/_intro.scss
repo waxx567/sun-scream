@@ -4,12 +4,12 @@
     //border: 1px solid lawngreen;
 
 }
-
+/*
 .intro-picture,
 .intro-graphic {
     border: 2px solid firebrick;
 }
-
+*/
 .intro__pic,
 .intro__bg {
     width: 100%;
@@ -18,6 +18,10 @@
 
 .intro__pic {
     position: relative;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
     padding-top: 3rem;
 }
 
@@ -25,18 +29,22 @@
     position: absolute;    
     z-index: 0;
     background-color: $introBlue;
-    bottom: -4rem;
-}
-
-.intro__pic,
-.intro__heading {
-    z-index: 2;
+    bottom: -7rem;
 }
 
 .intro-content {
     position: relative;
+    z-index: 2;
     text-align: center;
-    bottom: 3rem;
+
+}
+
+.intro-heading {
+    padding-top: 0.5rem;
+}
+
+.intro__button {
+    margin-top: 1rem;
 }
 /*
 .intro__heading {
@@ -47,4 +55,4 @@
 .intro__button {
     padding-top: 1rem;
 }
-*?
+*/

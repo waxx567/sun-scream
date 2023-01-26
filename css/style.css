@@ -181,6 +181,12 @@ button:hover {
   background-color: hsl(217deg, 28%, 15%);
 }
 
+/*
+.intro-picture,
+.intro-graphic {
+    border: 2px solid firebrick;
+}
+*/
 .intro__pic,
 .intro__bg {
   width: 100%;
@@ -189,36 +195,44 @@ button:hover {
 
 .intro__pic {
   position: relative;
-  padding: 3rem;
+  z-index: 1;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  padding-top: 3rem;
 }
 
 .intro__bg {
   position: absolute;
   z-index: 0;
   background-color: hsl(217deg, 28%, 15%);
-  bottom: -4rem;
-}
-
-.intro__pic,
-.intro__heading {
-  z-index: 2;
+  bottom: -7rem;
 }
 
 .intro-content {
   position: relative;
+  z-index: 2;
   text-align: center;
-  bottom: 2rem;
 }
 
+.intro-heading {
+  padding-top: 0.5rem;
+}
+
+.intro__button {
+  margin-top: 1rem;
+}
+
+/*
 .intro__heading {
-  padding-top: 2rem;
+    padding-top: 2rem;
 }
 
 .intro__text,
 .intro__button {
-  padding-top: 1rem;
+    padding-top: 1rem;
 }
-
+*/
 .features {
   padding: 3rem 0 0;
 }
