@@ -187,6 +187,7 @@ button:hover {
 .intro__pic {
   width: 100%;
   max-width: 50rem;
+  padding-top: 2rem;
 }
 
 .feature {
