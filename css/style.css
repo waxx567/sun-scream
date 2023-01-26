@@ -81,6 +81,7 @@ button:hover {
 }
 .header-container img {
   cursor: pointer;
+  width: 6rem;
   border: 2px solid red;
 }
 .header-container > * {
