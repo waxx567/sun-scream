@@ -3,11 +3,8 @@ html {
 }
 
 *, *:after, *:before {
-  box-sizing: border-box;
-}
-
-* {
   color: hsl(0deg, 0%, 100%);
+  box-sizing: border-box;
 }
 
 body {
@@ -104,7 +101,27 @@ button:hover {
 .header-container img {
   cursor: pointer;
   display: block;
-  width: 25%;
+  width: 50%;
+}
+@media screen and (min-width: 35rem) {
+  .header-container img {
+    width: 43.75%;
+  }
+}
+@media screen and (min-width: 49rem) {
+  .header-container img {
+    width: 37.5%;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .header-container img {
+    width: 31.25%;
+  }
+}
+@media screen and (min-width: 87rem) {
+  .header-container img {
+    width: 25%;
+  }
 }
 .header-container a {
   width: max-content;
@@ -188,6 +205,14 @@ button:hover {
   width: 100%;
   max-width: 50rem;
   padding-top: 2rem;
+}
+
+h1 {
+  max-width: 42.5rem;
+}
+
+p {
+  max-width: 36.25rem;
 }
 
 .feature {

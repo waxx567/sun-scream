@@ -3,11 +3,8 @@ html {
 }
 
 *, *:after, *:before { 
-    box-sizing: border-box; // includes padding in width as size changes
-}
-
-* { 
     color: hsla(0, 0%, 100%, 1);
+    box-sizing: border-box; // includes padding in width as size changes
 }
 
 body {

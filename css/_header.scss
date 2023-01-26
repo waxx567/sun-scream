@@ -32,8 +32,23 @@
     img {
         cursor: pointer;
         display: block;
-        width: 25%;
+        width: 50%;
         //border: 2px solid red;
+
+        @include breakpoint(med) {
+            width: 43.75%;
+        }
+
+        @include breakpoint(lg) {
+            width: 37.5%;
+        }
+
+        @include breakpoint(xl) {
+            width: 31.25%;
+        }
+        @include breakpoint(xxl) {
+            width: 25%;
+        }
     }
 
     a {
