@@ -15,6 +15,10 @@
         //min-width: 13rem;
         border: 2px solid red;
     }
+
+    > * {
+        border: 2pxsolid yellow;
+    }
 }
 a {
     font-size: 0.7em;

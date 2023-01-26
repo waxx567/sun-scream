@@ -82,6 +82,9 @@ button:hover {
   cursor: pointer;
   border: 2px solid red;
 }
+.header-container > * {
+  border: 2pxsolid yellow;
+}
 
 a {
   font-size: 0.7em;
