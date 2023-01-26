@@ -3,11 +3,9 @@
 }
 
 .header-container {
-    display: grid;
-    grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
-    gap: 1.5rem;
-    align-items: center;
-    padding: 1.5rem 1.875rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 0;
 
     
     > * {
@@ -17,6 +15,7 @@
     img {
         cursor: pointer;
         width: 5.75rem;
+        display: block;
         //min-width: 2rem;
         //min-width: 13rem;
         border: 2px solid red;
@@ -36,3 +35,18 @@
     border: 2px solid blue;
 }
 
+.header-logo,
+.header-links {
+    margin: 0;
+    padding: 0;
+    width: max-content;
+    height: max-content;
+}
+
+.header-links {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}

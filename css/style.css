@@ -72,11 +72,9 @@ button:hover {
 }
 
 .header-container {
-  display: grid;
-  grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
-  gap: 1.5rem;
-  align-items: center;
-  padding: 1.5rem 1.875rem 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 0;
   border: 2px solid blue;
 }
 .header-container > * {
@@ -85,6 +83,7 @@ button:hover {
 .header-container img {
   cursor: pointer;
   width: 5.75rem;
+  display: block;
   border: 2px solid red;
 }
 .header-container a {
@@ -95,6 +94,22 @@ button:hover {
 }
 .header-container a:hover {
   color: hsl(340deg, 57%, 64%);
+}
+
+.header-logo,
+.header-links {
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  height: max-content;
+}
+
+.header-links {
+  display: grid;
+  grid-template-columns: minmax(100px, 1fr) repeat(3, auto);
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 1.5rem;
 }
 
 .intro-images {
