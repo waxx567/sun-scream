@@ -202,17 +202,18 @@ button:hover {
 }
 
 .intro__pic {
-  width: 100%;
-  max-width: 50rem;
-  padding-top: 2rem;
+  width: 80%;
+  max-width: 62.5rem;
+  padding: 3rem 0 0 0;
 }
 
 h1 {
-  max-width: 42.5rem;
+  padding: 1rem 1rem 0;
+  max-width: 53.125rem;
 }
 
 p {
-  max-width: 36.25rem;
+  max-width: 45.3125rem;
 }
 
 .feature {
