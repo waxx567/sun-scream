@@ -17,6 +17,10 @@
 .intro-picture {
     padding: 0 2.5rem;
     //background-color: $introBlue;
+
+    @include breakpoint(xl) {
+        padding: 2.25rem 25rem 0;
+    }
 }
 
 .intro__pic {

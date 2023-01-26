@@ -61,6 +61,22 @@
         &:hover {
             color: $paleRed;
         }
+
+        @include breakpoint(med) {
+            font-size: 0.64em;
+        }
+
+        @include breakpoint(lg) {
+            font-size: 0.625em;
+        }
+
+        @include breakpoint(xl) {
+            font-size: 0.61em;
+        }
+
+        @include breakpoint(xxl) {
+            font-size: 0.6em;
+        }
         //border: 2px solid green;
     }
     //border: 2px solid blue;
