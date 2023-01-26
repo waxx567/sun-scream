@@ -81,6 +81,26 @@ button:hover {
   }
   */
 }
+@media screen and (min-width: 35rem) {
+  .header-container {
+    padding: 2.8125rem 1.875rem 0;
+  }
+}
+@media screen and (min-width: 49rem) {
+  .header-container {
+    padding: 4.125rem 2.75rem 0;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .header-container {
+    padding: 5.4375rem 3.625rem 0;
+  }
+}
+@media screen and (min-width: 87rem) {
+  .header-container {
+    padding: 6.75rem 4.5rem 0;
+  }
+}
 .header-container img {
   cursor: pointer;
   height: 1.7rem;
@@ -98,12 +118,12 @@ button:hover {
 }
 @media screen and (min-width: 63rem) {
   .header-container img {
-    height: 3rem;
+    height: 3.1rem;
   }
 }
 @media screen and (min-width: 87rem) {
   .header-container img {
-    height: 3.2rem;
+    height: 3.3rem;
   }
 }
 .header-container a {
@@ -130,6 +150,26 @@ button:hover {
   gap: 2rem;
   align-items: center;
   margin-top: 0.25rem;
+}
+@media screen and (min-width: 35rem) {
+  .header-links {
+    gap: 2.25rem;
+  }
+}
+@media screen and (min-width: 49rem) {
+  .header-links {
+    gap: 2.5rem;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .header-links {
+    gap: 2.75rem;
+  }
+}
+@media screen and (min-width: 87rem) {
+  .header-links {
+    gap: 3rem;
+  }
 }
 
 .intro-images {

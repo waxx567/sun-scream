@@ -7,6 +7,22 @@
     justify-content: space-between;
     padding: 1.5rem 1rem 0;
 
+    @include breakpoint(med) {
+        padding: 2.8125rem 1.875rem 0;
+    }
+
+    @include breakpoint(lg) {
+        padding: 4.125rem 2.75rem 0;
+    }
+
+    @include breakpoint(xl) {
+        padding: 5.4375rem 3.625rem 0;
+    }
+
+    @include breakpoint(xxl) {
+        padding: 6.75rem 4.5rem 0;
+    }
+
     /*
     > * {
         border: 2px solid yellow;
@@ -28,11 +44,11 @@
         }
 
         @include breakpoint(xl) {
-            height: 3rem;
+            height: 3.1rem;
         }
 
         @include breakpoint(xxl) {
-            height: 3.2rem;
+            height: 3.3rem;
         }
     }
 
@@ -64,4 +80,20 @@
     gap: 2rem;
     align-items: center;
     margin-top: 0.25rem;
+
+    @include breakpoint(med) {
+        gap: 2.25rem;
+    }
+
+    @include breakpoint(lg) {
+        gap: 2.5rem;
+    }
+
+    @include breakpoint(xl) {
+        gap: 2.75rem;
+    }
+
+    @include breakpoint(xxl) {
+        gap: 3rem;
+    }
 }
