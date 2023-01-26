@@ -7,6 +7,8 @@
     text-align: center;
 
     > * {
+        position: relative;
+        z-index: 2;
         margin: 0;
     }
 
@@ -14,7 +16,7 @@
         content: '';
         position: absolute;
         width: 100%;
-        height: 10rem;
+        height: 12rem;
         bottom: 0rem;
         background-image: url("/images/bg-curvy-mobile.svg");
         background-size: cover;
