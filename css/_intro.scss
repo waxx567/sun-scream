@@ -18,8 +18,12 @@
     padding: 0 2.5rem;
     //background-color: $introBlue;
 
+    @include breakpoint(med) {
+        padding: 0.67rem 7.5rem;
+    }
+
     @include breakpoint(xl) {
-        padding: 2.25rem 25rem 0;
+        padding: 2rem 25rem;
     }
 }
 

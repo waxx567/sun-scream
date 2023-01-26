@@ -8,19 +8,19 @@
     padding: 1.5rem 1rem 0;
 
     @include breakpoint(med) {
-        padding: 2.8125rem 1.875rem 0;
+        padding: 1.875rem 1.875rem 0;
     }
 
     @include breakpoint(lg) {
-        padding: 4.125rem 2.75rem 0;
+        padding: 2.75rem 2.75rem 0;
     }
 
     @include breakpoint(xl) {
-        padding: 5.4375rem 3.625rem 0;
+        padding: 3.625rem 3.625rem 0;
     }
 
     @include breakpoint(xxl) {
-        padding: 6.75rem 4.5rem 0;
+        padding: 4.5rem 4.5rem 0;
     }
 
     /*
