@@ -80,8 +80,7 @@ button:hover {
 }
 .header-container img {
   cursor: pointer;
-  min-width: 4.75rem;
-  max-width: 13rem;
+  min-width: 2rem;
 }
 
 a {
