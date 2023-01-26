@@ -5,6 +5,11 @@
 
 }
 
+.intro-picture,
+.intro-graphic {
+    border: 2px solid firebrick;
+}
+
 .intro__pic,
 .intro__bg {
     width: 100%;
@@ -13,7 +18,7 @@
 
 .intro__pic {
     position: relative;
-    padding: 3rem;
+    padding-top: 3rem;
 }
 
 .intro__bg {
@@ -31,9 +36,9 @@
 .intro-content {
     position: relative;
     text-align: center;
-    bottom: 2rem;
+    bottom: 3rem;
 }
-
+/*
 .intro__heading {
     padding-top: 2rem;
 }
@@ -42,3 +47,4 @@
 .intro__button {
     padding-top: 1rem;
 }
+*?
