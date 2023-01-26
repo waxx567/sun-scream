@@ -24,7 +24,7 @@
         background-position: bottom center;
 
         @include breakpoint(lg) {
-            height: 67vw;
+            height: 35vw;
             background-image: url("/images/bg-curvy-desktop.svg");
         }
     }

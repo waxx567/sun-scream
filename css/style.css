@@ -219,7 +219,7 @@ button:hover {
 }
 @media screen and (min-width: 49rem) {
   .intro-container:after {
-    height: 67vw;
+    height: 35vw;
     background-image: url("/images/bg-curvy-desktop.svg");
   }
 }
