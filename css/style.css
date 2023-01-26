@@ -429,6 +429,8 @@ footer {
   font-size: 1.1em;
 }
 .contact-details > * {
+  margin: 0;
+  padding: 0;
   display: grid;
   grid-template-columns: 1fr 21fr;
 }

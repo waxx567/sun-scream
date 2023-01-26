@@ -26,9 +26,10 @@ footer {
     font-size: 1.1em;
 
     > * {
+        margin: 0;
+        padding: 0;
         display: grid;
         grid-template-columns: 1fr 21fr;
-
     }
 }
 
