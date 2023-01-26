@@ -80,13 +80,14 @@ button:hover {
 }
 .header-container img {
   cursor: pointer;
-  min-width: 2rem;
+  border: 2px solid red;
 }
 
 a {
   font-size: 0.7em;
   color: hsla(0deg, 0%, 100%, 0.85);
   transition: color 200ms ease-in-out;
+  border: 2px solid green;
 }
 a:hover {
   color: hsl(340deg, 57%, 64%);

@@ -11,9 +11,9 @@
     img {
         cursor: pointer;
         //width: 1rem;
-        min-width: 2rem;
+        //min-width: 2rem;
         //min-width: 13rem;
-        //border: 2px solid red;
+        border: 2px solid red;
     }
 }
 a {
@@ -23,4 +23,5 @@ a {
     &:hover {
         color: $paleRed;
     }
+    border: 2px solid green;
 }
