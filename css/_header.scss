@@ -20,19 +20,19 @@
         //border: 2px solid red;
 
         @include breakpoint(med) {
-            height: 2.9rem;
+            height: 2.2rem;
         }
 
         @include breakpoint(lg) {
-            height: 4.3rem;
+            height: 2.6rem;
         }
 
         @include breakpoint(xl) {
-            height: 5.7rem;
+            height: 3rem;
         }
 
         @include breakpoint(xxl) {
-            height: 8.1rem;
+            height: 3.2rem;
         }
     }
 
