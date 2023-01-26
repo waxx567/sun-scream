@@ -11,11 +11,6 @@
     display: block;
 }
 
-.intro__pic,
-.intro__heading {
-    z-index: 2;
-}
-
 .intro__pic {
     position: relative;
     padding: 3rem;
@@ -28,9 +23,15 @@
     bottom: -4rem;
 }
 
+.intro__pic,
+.intro__heading {
+    z-index: 2;
+}
+
 .intro-content {
     position: relative;
     text-align: center;
     bottom: 2rem;
 }
 
+.intro__heading
