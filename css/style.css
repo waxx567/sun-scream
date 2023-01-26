@@ -208,7 +208,7 @@ button:hover {
   content: "";
   position: absolute;
   width: 100%;
-  height: max-content;
+  height: 10rem;
   background-image: url("/images/bg-curvy-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -223,7 +223,7 @@ button:hover {
 .intro__pic {
   width: 80%;
   max-width: 62.5rem;
-  padding: 4rem 0 0 0;
+  padding: 4.5rem 0 0 0;
 }
 
 h1 {
