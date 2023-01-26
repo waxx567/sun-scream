@@ -223,7 +223,7 @@ button:hover {
 }
 @media screen and (min-width: 49rem) {
   .intro__bg {
-    bottom: -13rem;
+    bottom: -15rem;
   }
 }
 
