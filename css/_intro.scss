@@ -1,50 +1,40 @@
-.intro-container {
-    background-color: $introBlue;
-
-    img {
-        width: 100%;
-        display: block;
-    }
-}
-
-.intro__pic,
-.intro__heading,
-.intro__text,
-.intro__button,
-.intro__bg {
+.intro-images {
     position: relative;
-}
+    background-color: $introBlue;
+    //border: 1px solid lawngreen;
 
-.intro-picture {
-    
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-    }
 }
 
 .intro__pic,
-.intro__heading,
-.intro__text,
-.intro__button {
+.intro__bg {
+    width: 100%;
+    display: block;
+}
+
+.intro__pic {
+    position: relative;
     z-index: 2;
+    padding: 3rem;
 }
 
 .intro__bg {
-    z-index: 0;
+    position: absolute;
+    background-color: $introBlue;
+    bottom: -4rem;
 }
+
+
+
+
+
 
 
 /*
     // Section 1
     .intro-images {
-        img {
-            width: 100%;
-            display: block;
-        }
+        
         background-color: $introBlue;
-        //border: 1px solid lawngreen;   
+        //   
     }
 
     .intro-picture,

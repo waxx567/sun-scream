@@ -128,7 +128,7 @@ button:hover {
 }
 .header-container a {
   width: max-content;
-  font-size: 0.65em;
+  font-size: 0.64em;
   color: hsla(0deg, 0%, 100%, 0.85);
   transition: color 200ms ease-in-out;
 }
@@ -137,12 +137,12 @@ button:hover {
 }
 @media screen and (min-width: 35rem) {
   .header-container a {
-    font-size: 0.64em;
+    font-size: 0.63em;
   }
 }
 @media screen and (min-width: 49rem) {
   .header-container a {
-    font-size: 0.625em;
+    font-size: 0.62em;
   }
 }
 @media screen and (min-width: 63rem) {
@@ -167,7 +167,7 @@ button:hover {
 .header-links {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  gap: 1.8rem;
+  gap: 2rem;
   align-items: center;
   margin-top: 0.25rem;
 }
@@ -192,48 +192,35 @@ button:hover {
   }
 }
 
-.intro-container {
+.intro-images {
+  position: relative;
   background-color: hsl(217deg, 28%, 15%);
 }
-.intro-container img {
+
+.intro__pic,
+.intro__bg {
   width: 100%;
   display: block;
 }
 
-.intro__pic,
-.intro__heading,
-.intro__text,
-.intro__button,
-.intro__bg {
+.intro__pic {
   position: relative;
-}
-
-.intro-picture img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
-
-.intro__pic,
-.intro__heading,
-.intro__text,
-.intro__button {
   z-index: 2;
+  padding: 3rem;
 }
 
 .intro__bg {
-  z-index: 0;
+  position: absolute;
+  background-color: hsl(217deg, 28%, 15%);
+  bottom: -4rem;
 }
 
 /*
     // Section 1
     .intro-images {
-        img {
-            width: 100%;
-            display: block;
-        }
+
         background-color: $introBlue;
-        //border: 1px solid lawngreen;   
+        //   
     }
 
     .intro-picture,
