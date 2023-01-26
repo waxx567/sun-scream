@@ -412,7 +412,7 @@ footer {
 
 .footer-logo {
   width: 100%;
-  padding: 0 0 0 2.5rem;
+  padding: 0 0 0 3rem;
 }
 
 .footer__logo {
@@ -446,8 +446,8 @@ footer {
 }
 
 .location-directions {
-  margin: 0;
-  padding: 0 1.5rem 0 2.5rem;
+  margin: 0.1rem 0 0 0;
+  padding: 0 1.5rem 0 0;
 }
 
 .location__directions {
@@ -466,11 +466,14 @@ footer {
 
 .phone-number {
   margin: 0;
-  padding: 0 0 0 2.5rem;
+  padding: 0;
+}
+.phone-number p {
+  font-size: 0.75em;
 }
 
 .phone__number {
-  margin: 0;
+  margin: 0.2rem 0 0 0;
   padding: 0;
 }
 
@@ -478,13 +481,6 @@ footer {
   margin: 0;
   padding: 1rem 0 0 0;
   text-align: left;
-  border: 2px solid navy;
-}
-.footer-email > * {
-  border: 2px solid lime;
-}
-.footer-email p {
-  border: 2px solid mediumvioletred;
 }
 
 .email-icon {
@@ -492,8 +488,11 @@ footer {
 }
 
 .email-address {
-  margin: 0;
-  padding: 0 0 0 2.5rem;
+  margin: 0.1rem 0 0 0;
+  padding: 0 0 0 1rem;
+}
+.email-address p {
+  font-size: 0.7em;
 }
 
 .email__address {
@@ -502,8 +501,8 @@ footer {
 }
 
 .footer-links {
-  padding: 6rem 0 0 2.5rem;
-  font-size: 1.25em;
+  padding: 4rem 0 0 2.5rem;
+  font-size: 1.45em;
 }
 
 .links-current {
@@ -518,7 +517,7 @@ footer {
 .links-info {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 2.5rem 0 0 0;
+  padding: 2rem 0 0 0;
 }
 
 .social-icons {

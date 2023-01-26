@@ -9,7 +9,7 @@ footer {
 
 .footer-logo {
     width: 100%;
-    padding: 0 0 0 2.5rem;
+    padding: 0 0 0 3rem;
 }
 
 .footer__logo {
@@ -37,7 +37,6 @@ footer {
     margin: 0;
     padding: 1.75rem 0 0 0;
     //border: 1px solid peru;
-    
 }
 
 .location-icon {
@@ -46,8 +45,8 @@ footer {
 }
 
 .location-directions{
-    margin: 0;
-    padding: 0 1.5rem 0 2.5rem;
+    margin: 0.1rem 0 0 0;
+    padding: 0 1.5rem 0 0;
     //border: 1px solid navy;
 }
 .location__directions {
@@ -66,12 +65,16 @@ footer {
 
 .phone-number {
     margin: 0;
-    padding: 0 0 0 2.5rem;
+    padding: 0;
+
+    p {
+        font-size: 0.75em;
+    }
     //border: 1px solid navy;
 }
 
 .phone__number {
-    margin: 0;
+    margin: 0.2rem 0 0 0;
     padding: 0;
 }
 
@@ -79,13 +82,7 @@ footer {
     margin: 0;
     padding: 1rem 0 0 0;
     text-align: left;
-    > * {
-        border: 2px solid lime;
-    }
-    p {
-        border: 2px solid mediumvioletred;
-    }
-    border: 2px solid navy;
+    //border: 2px solid navy;
 }
 
 .email-icon {
@@ -93,8 +90,12 @@ footer {
 }
 
 .email-address {
-    margin: 0;
-    padding: 0 0 0 2.5rem;
+    margin: 0.1rem 0 0 0;
+    padding: 0 0 0 1rem;
+
+    p {
+        font-size: 0.7em;
+    }
     //border: 1px solid navy;
 }
 
@@ -104,8 +105,8 @@ footer {
 }
 
 .footer-links {
-    padding: 6rem 0 0 2.5rem;
-    font-size: 1.25em;
+    padding: 4rem 0 0 2.5rem;
+    font-size: 1.45em;
 }
 
 .links-current {
@@ -120,7 +121,7 @@ footer {
 .links-info {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 2.5rem 0 0 0;
+    padding: 2rem 0 0 0;
 }
 
 .social-icons {
