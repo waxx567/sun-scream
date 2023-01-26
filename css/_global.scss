@@ -62,6 +62,7 @@ button {
     padding: 1.1rem 5.75rem;
     border-radius: 1.875rem; // 30px
     color: hsl(0, 0%, 95%);
+    
     &:hover {
         background: linear-gradient(to left, $greenCyan, $lightBlue);
     }
