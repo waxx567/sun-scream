@@ -203,16 +203,31 @@ button:hover {
   display: block;
 }
 
+.intro__pic,
+.intro__heading {
+  z-index: 2;
+}
+
 .intro__pic {
   position: relative;
-  z-index: 2;
   padding: 3rem;
 }
 
 .intro__bg {
   position: absolute;
+  z-index: 0;
   background-color: hsl(217deg, 28%, 15%);
   bottom: -4rem;
+}
+
+.intro-content {
+  position: relative;
+  text-align: center;
+  bottom: 2rem;
+}
+
+.intro__heading {
+  text-align: center;
 }
 
 /*
