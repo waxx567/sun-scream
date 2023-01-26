@@ -8,11 +8,12 @@ footer {
 }
 
 .footer-logo {
+    width: 100%;
     padding: 0 0 0 2.5rem;
 }
 
 .footer__logo {
-    height: 3.75rem;
+    width: 50%;
     //border: 1px solid fuchsia;
 }
 /*
@@ -20,14 +21,20 @@ footer {
 
 }
 */
-.contact-fylo {
+.contact-details {
     padding: 0 0 0 2rem;
+    font-size: 1.1em;
+
+    > * {
+        display: grid;
+        grid-template-columns: 1fr 21fr;
+
+    }
 }
 
 .footer-location {
-    display: grid;
-    grid-template-columns: 1fr 14fr;
-    padding-top: 1.75rem;
+    margin: 0;
+    padding: 1.75rem 0 0 0;
     //border: 1px solid peru;
     
 }
@@ -48,8 +55,6 @@ footer {
 }
 
 .footer-phone {
-    display: grid;
-    grid-template-columns: 1fr 14fr;
     padding-top: 1rem;
 }
 
@@ -70,14 +75,20 @@ footer {
 }
 
 .footer-email {
-    display: grid;
-    grid-template-columns: 1fr 14fr;
-    padding-top: 1rem;
+    margin: 0;
+    padding: 1rem 0 0 0;
+    text-align: left;
+    > * {
+        border: 2px solid lime;
+    }
+    p {
+        border: 2px solid mediumvioletred;
+    }
+    border: 2px solid navy;
 }
 
 .email-icon {
     padding-top: 0.1rem;
-    padding-right: 1.5rem;
 }
 
 .email-address {
@@ -127,7 +138,7 @@ footer {
 .attribution { 
     margin: 0;
     padding: 0;
-    font-size: 0.6875rem; // 11px 
+    font-size: 0.6875rem;
     text-align: center;
     height: max-content;
     background-color: rgb(37, 41, 41);

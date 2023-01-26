@@ -20,13 +20,13 @@ body {
 }
 
 a, p { 
-    font-size: 1em;
     color: hsla(0, 0%, 95%, 0.9);
     text-decoration: none;
 }
 
 a {
     font-family: $font-title;
+    font-size: .65em;
 }
 
 p { 

@@ -20,13 +20,13 @@ body {
 }
 
 a, p {
-  font-size: 1em;
   color: hsla(0deg, 0%, 95%, 0.9);
   text-decoration: none;
 }
 
 a {
   font-family: "Raleway", sans-serif;
+  font-size: 0.65em;
 }
 
 p {
@@ -213,26 +213,21 @@ button:hover {
   position: relative;
   z-index: 2;
   text-align: center;
+  padding-bottom: 9rem;
 }
 
 .intro-heading {
   padding-top: 0.5rem;
 }
 
+.intro-text {
+  padding: 0 0.75rem;
+}
+
 .intro__button {
   margin-top: 1rem;
 }
 
-/*
-.intro__heading {
-    padding-top: 2rem;
-}
-
-.intro__text,
-.intro__button {
-    padding-top: 1rem;
-}
-*/
 .feature {
   text-align: center;
   margin-bottom: 6rem;
@@ -262,7 +257,7 @@ button:hover {
 }
 
 .showcase {
-  padding: 0 2rem 10rem;
+  padding: 0 2rem 9rem;
 }
 
 .showcase__image {
@@ -314,9 +309,9 @@ button:hover {
 
 .testimonial__graphic {
   position: absolute;
-  top: -1rem;
-  left: 2.6rem;
-  width: 7.5%;
+  top: -1.1rem;
+  left: 3rem;
+  width: 6%;
 }
 
 .testimonial-box {
@@ -380,14 +375,15 @@ button:hover {
   position: relative;
   z-index: 2;
   bottom: -7rem;
-  padding: 1.5rem 0.25rem 2.5rem;
+  padding: 1.5rem 0.25rem 2rem;
   border-radius: 0.5rem;
   background-color: hsl(217deg, 28%, 15%);
   box-shadow: 0.4rem 0.45rem hsla(0deg, 0%, 0%, 0.075);
   text-align: center;
+  line-height: 1.4;
 }
 .signup-container input {
-  width: 21.875rem;
+  width: 21rem;
 }
 
 .signup-text {
@@ -415,11 +411,12 @@ footer {
 }
 
 .footer-logo {
+  width: 100%;
   padding: 0 0 0 2.5rem;
 }
 
 .footer__logo {
-  height: 3.75rem;
+  width: 50%;
 }
 
 /*
@@ -427,14 +424,18 @@ footer {
 
 }
 */
-.contact-fylo {
+.contact-details {
   padding: 0 0 0 2rem;
+  font-size: 1.1em;
+}
+.contact-details > * {
+  display: grid;
+  grid-template-columns: 1fr 21fr;
 }
 
 .footer-location {
-  display: grid;
-  grid-template-columns: 1fr 14fr;
-  padding-top: 1.75rem;
+  margin: 0;
+  padding: 1.75rem 0 0 0;
 }
 
 .location-icon {
@@ -453,8 +454,6 @@ footer {
 }
 
 .footer-phone {
-  display: grid;
-  grid-template-columns: 1fr 14fr;
   padding-top: 1rem;
 }
 
@@ -474,14 +473,20 @@ footer {
 }
 
 .footer-email {
-  display: grid;
-  grid-template-columns: 1fr 14fr;
-  padding-top: 1rem;
+  margin: 0;
+  padding: 1rem 0 0 0;
+  text-align: left;
+  border: 2px solid navy;
+}
+.footer-email > * {
+  border: 2px solid lime;
+}
+.footer-email p {
+  border: 2px solid mediumvioletred;
 }
 
 .email-icon {
   padding-top: 0.1rem;
-  padding-right: 1.5rem;
 }
 
 .email-address {

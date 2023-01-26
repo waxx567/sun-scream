@@ -36,6 +36,7 @@
     position: relative;
     z-index: 2;
     text-align: center;
+    padding-bottom: 9rem;
 
 }
 
@@ -43,16 +44,10 @@
     padding-top: 0.5rem;
 }
 
+.intro-text {
+    padding: 0 0.75rem;
+}
+
 .intro__button {
     margin-top: 1rem;
 }
-/*
-.intro__heading {
-    padding-top: 2rem;
-}
-
-.intro__text,
-.intro__button {
-    padding-top: 1rem;
-}
-*/
