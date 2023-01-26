@@ -182,8 +182,7 @@ button:hover {
 }
 
 /*
-.intro-picture,
-.intro-graphic {
+.intro-picture {
     border: 2px solid firebrick;
 }
 */
@@ -207,6 +206,25 @@ button:hover {
   z-index: 0;
   background-color: hsl(217deg, 28%, 15%);
   bottom: -7rem;
+  /*
+      @include breakpoint(xl) {
+          bottom: -50rem;
+      }
+
+      @include breakpoint(xxl) {
+          bottom: -50rem;
+      }
+      */
+}
+@media screen and (min-width: 35rem) {
+  .intro__bg {
+    bottom: -11rem;
+  }
+}
+@media screen and (min-width: 49rem) {
+  .intro__bg {
+    bottom: -13rem;
+  }
 }
 
 .intro-content {

@@ -5,8 +5,7 @@
 
 }
 /*
-.intro-picture,
-.intro-graphic {
+.intro-picture {
     border: 2px solid firebrick;
 }
 */
@@ -30,6 +29,23 @@
     z-index: 0;
     background-color: $introBlue;
     bottom: -7rem;
+
+    @include breakpoint(med) {
+        bottom: -11rem;
+    }
+
+    @include breakpoint(lg) {
+        bottom: -13rem;
+    }
+/*
+    @include breakpoint(xl) {
+        bottom: -50rem;
+    }
+
+    @include breakpoint(xxl) {
+        bottom: -50rem;
+    }
+    */
 }
 
 .intro-content {
