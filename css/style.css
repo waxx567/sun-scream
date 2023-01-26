@@ -206,9 +206,9 @@ button:hover {
 }
 .intro-container:after {
   content: "";
+  position: absolute;
   width: 100%;
   height: max-content;
-  position: absolute;
   background-image: url("/images/bg-curvy-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
