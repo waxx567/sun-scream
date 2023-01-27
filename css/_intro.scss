@@ -72,6 +72,9 @@
 
 .intro-content {
     position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
     bottom: 13rem;
 
     @include breakpoint(med) {
@@ -79,11 +82,11 @@
     }
 
     @include breakpoint(lg) {
-        bottom: 20rem;
+        bottom: 17rem;
     }
 
     @include breakpoint(xl) {
-        bottom: 37.5rem;
+        bottom: 19rem;
     }
     //border: 2px solid gold;
 }
@@ -91,7 +94,7 @@
 h1 {
     position: relative;
     z-index: 3;
-    width: 85%;
+    margin: 0;
     padding: 2.5rem 0;
 }
 
@@ -99,28 +102,12 @@ h1 {
     position: relative;
     z-index: 2;
     //background-color: $mainBlue
-    bottom: 4.1rem;
+    bottom: 0rem;
     //border: 2px solid firebrick;
 
     p {
-        padding: 1.5rem 3rem 0;
-        max-width: 45.3125rem;
-    }
-
-    @include breakpoint(med) {
-        bottom: 2.9rem;
-    }
-    @include breakpoint(lg) {
-        background-color: transparent;
-        bottom: 3.4rem;
-    }
-
-    @include breakpoint(xl) {
-        bottom: 4.6rem;
-    }
-
-    @include breakpoint(xxl) {
-        bottom: 6.5rem;
+        padding: 0;
+        width: 75%;
     }
 }
 
@@ -133,10 +120,13 @@ h1 {
 }
 
 .intro__heading {
-    max-width: 25rem;
+    max-width: 100%;
 
     @include breakpoint(med) {
-        max-width: 40rem;
+        max-width: 90%;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        //max-width: 35rem;
     }
 }
 

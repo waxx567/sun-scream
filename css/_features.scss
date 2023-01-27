@@ -5,6 +5,11 @@
     text-align: center;
     align-items: center;
     //border: 1px solid yellow;
+    
+    > * {
+        margin-right: auto;
+        margin-left: auto;
+    }
 
     @include breakpoint(lg) {
         display: grid;
@@ -13,9 +18,18 @@
 }
 
 .feature {
+    width: 100%;
     
     &:not(:last-child) {
         padding-bottom: 6rem;
+    }
+
+    @include breakpoint(med) {
+        max-width: 80%;
+    }
+
+    @include breakpoint(lg) {
+        max-width: 80%;
     }
 }
 

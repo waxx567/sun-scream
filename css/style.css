@@ -82,12 +82,12 @@ button:hover {
   }
   */
 }
-@media screen and (min-width: 35rem) {
+@media screen and (min-width: 34rem) {
   .header-container {
     padding: 1.875rem 1.875rem 0;
   }
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .header-container {
     padding: 2.75rem 2.75rem 0;
   }
@@ -97,7 +97,7 @@ button:hover {
     padding: 3.625rem 3.625rem 0;
   }
 }
-@media screen and (min-width: 87rem) {
+@media screen and (min-width: 82rem) {
   .header-container {
     padding: 4.5rem 4.5rem 0;
   }
@@ -107,12 +107,12 @@ button:hover {
   display: block;
   width: 50%;
 }
-@media screen and (min-width: 35rem) {
+@media screen and (min-width: 34rem) {
   .header-container img {
     width: 43.75%;
   }
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .header-container img {
     width: 37.5%;
   }
@@ -122,7 +122,7 @@ button:hover {
     width: 31.25%;
   }
 }
-@media screen and (min-width: 87rem) {
+@media screen and (min-width: 82rem) {
   .header-container img {
     width: 25%;
   }
@@ -136,12 +136,12 @@ button:hover {
 .header-container a:hover {
   color: hsl(340deg, 57%, 64%);
 }
-@media screen and (min-width: 35rem) {
+@media screen and (min-width: 34rem) {
   .header-container a {
     font-size: 0.63em;
   }
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .header-container a {
     font-size: 0.62em;
   }
@@ -151,7 +151,7 @@ button:hover {
     font-size: 0.61em;
   }
 }
-@media screen and (min-width: 87rem) {
+@media screen and (min-width: 82rem) {
   .header-container a {
     font-size: 0.6em;
   }
@@ -176,12 +176,12 @@ button:hover {
   align-items: center;
   margin-top: 0.25rem;
 }
-@media screen and (min-width: 35rem) {
+@media screen and (min-width: 34rem) {
   .header-links {
     gap: 2.2rem;
   }
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .header-links {
     gap: 2.25rem;
   }
@@ -191,7 +191,7 @@ button:hover {
     gap: 2.5rem;
   }
 }
-@media screen and (min-width: 87rem) {
+@media screen and (min-width: 82rem) {
   .header-links {
     gap: 2.75rem;
   }
@@ -228,7 +228,7 @@ button:hover {
   background-repeat: no-repeat;
   background-position: bottom center;
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .intro-images:after {
     height: 40vw;
     bottom: 0;
@@ -248,12 +248,12 @@ button:hover {
   max-width: 62.5rem;
   padding: 3rem 0 0 0;
 }
-@media screen and (min-width: 35rem) {
+@media screen and (min-width: 34rem) {
   .intro__pic {
     width: 75%;
   }
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .intro__pic {
     width: 70%;
   }
@@ -263,7 +263,7 @@ button:hover {
     width: 65%;
   }
 }
-@media screen and (min-width: 87rem) {
+@media screen and (min-width: 82rem) {
   .intro__pic {
     width: 60%;
   }
@@ -271,60 +271,42 @@ button:hover {
 
 .intro-content {
   position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
   bottom: 13rem;
 }
-@media screen and (min-width: 35rem) {
+@media screen and (min-width: 34rem) {
   .intro-content {
     bottom: 15rem;
   }
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .intro-content {
-    bottom: 20rem;
+    bottom: 17rem;
   }
 }
 @media screen and (min-width: 63rem) {
   .intro-content {
-    bottom: 37.5rem;
+    bottom: 19rem;
   }
 }
 
 h1 {
   position: relative;
   z-index: 3;
-  width: 85%;
+  margin: 0;
   padding: 2.5rem 0;
 }
 
 .intro-contents {
   position: relative;
   z-index: 2;
-  bottom: 4.1rem;
+  bottom: 0rem;
 }
 .intro-contents p {
-  padding: 1.5rem 3rem 0;
-  max-width: 45.3125rem;
-}
-@media screen and (min-width: 35rem) {
-  .intro-contents {
-    bottom: 2.9rem;
-  }
-}
-@media screen and (min-width: 49rem) {
-  .intro-contents {
-    background-color: transparent;
-    bottom: 3.4rem;
-  }
-}
-@media screen and (min-width: 63rem) {
-  .intro-contents {
-    bottom: 4.6rem;
-  }
-}
-@media screen and (min-width: 87rem) {
-  .intro-contents {
-    bottom: 6.5rem;
-  }
+  padding: 0;
+  width: 75%;
 }
 
 .intro__heading,
@@ -336,11 +318,13 @@ h1 {
 }
 
 .intro__heading {
-  max-width: 25rem;
+  max-width: 100%;
 }
-@media screen and (min-width: 35rem) {
+@media screen and (min-width: 34rem) {
   .intro__heading {
-    max-width: 40rem;
+    max-width: 90%;
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 }
 
@@ -359,15 +343,32 @@ h1 {
   text-align: center;
   align-items: center;
 }
-@media screen and (min-width: 49rem) {
+.features-container > * {
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 52rem) {
   .features-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+.feature {
+  width: 100%;
+}
 .feature:not(:last-child) {
   padding-bottom: 6rem;
+}
+@media screen and (min-width: 34rem) {
+  .feature {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 52rem) {
+  .feature {
+    max-width: 80%;
+  }
 }
 
 .features__icon {
@@ -401,7 +402,7 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .showcase-container {
     padding: 3rem;
     flex-direction: row;
@@ -422,7 +423,7 @@ h1 {
 .showcase-content {
   border: 2px solid hotpink;
 }
-@media screen and (min-width: 49rem) {
+@media screen and (min-width: 52rem) {
   .showcase-content {
     padding-left: 2rem;
   }
