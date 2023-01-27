@@ -22,6 +22,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
+        background-color: $introBlue;
 
         @include breakpoint(lg) {
             height: 33vw;
@@ -30,11 +31,14 @@
     }
 }
 
+.image-container {
+    background-color: $introBlue;
+}
+
 .intro__pic {
     width: 80%;
     max-width: 62.5rem;
     padding: 4.5rem 0 0 0;
-    background-color: $introBlue;
 }
 
 h1 {
