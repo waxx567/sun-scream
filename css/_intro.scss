@@ -49,10 +49,6 @@
 .intro-content {
     position: relative;
     bottom: 10rem;
-    
-    @include breakpoint(lg) {
-        bottom: 15rem;
-    }
 }
 
 h1 {
@@ -68,6 +64,10 @@ h1 {
     background-color: $mainBlue;
     padding-top: 2rem;
     bottom: 3.5rem;
+
+    @include breakpoint(xl) {
+        bottom: 5rem;
+    }
 }
 
 .intro__heading,

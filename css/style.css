@@ -243,11 +243,6 @@ button:hover {
   position: relative;
   bottom: 10rem;
 }
-@media screen and (min-width: 49rem) {
-  .intro-content {
-    bottom: 15rem;
-  }
-}
 
 h1 {
   position: relative;
@@ -262,6 +257,11 @@ h1 {
   background-color: hsl(218deg, 28%, 13%);
   padding-top: 2rem;
   bottom: 3.5rem;
+}
+@media screen and (min-width: 63rem) {
+  .intro-contents {
+    bottom: 5rem;
+  }
 }
 
 .intro__heading,
