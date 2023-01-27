@@ -242,7 +242,17 @@ button:hover {
 
 .intro-content {
   position: relative;
-  bottom: 10rem;
+  bottom: 12rem;
+}
+@media screen and (min-width: 49rem) {
+  .intro-content {
+    bottom: 20rem;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .intro-content {
+    bottom: 37.5rem;
+  }
 }
 
 h1 {
@@ -271,6 +281,7 @@ h1 {
 @media screen and (min-width: 49rem) {
   .intro-contents {
     bottom: 3.4rem;
+    background-color: transparent;
   }
 }
 @media screen and (min-width: 63rem) {
