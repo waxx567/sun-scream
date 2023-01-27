@@ -74,6 +74,9 @@ h1 {
     @include breakpoint(med) {
         bottom: 2.9rem;
     }
+    @include breakpoint(lg) {
+        bottom: 3.8rem;
+    }
 
     @include breakpoint(xl) {
         bottom: 5rem;
