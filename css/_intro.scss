@@ -49,6 +49,10 @@
 .intro-content {
     position: relative;
     bottom: 10rem;
+    
+    @include breakpoint(lg) {
+        bottom: 15rem;
+    }
 }
 
 h1 {

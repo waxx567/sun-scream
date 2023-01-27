@@ -243,6 +243,11 @@ button:hover {
   position: relative;
   bottom: 10rem;
 }
+@media screen and (min-width: 49rem) {
+  .intro-content {
+    bottom: 15rem;
+  }
+}
 
 h1 {
   position: relative;
@@ -336,6 +341,9 @@ p {
   width: 100%;
 }
 
+.showcase-content {
+  border: 2px solid hotpink;
+}
 @media screen and (min-width: 49rem) {
   .showcase-content {
     padding-left: 2rem;
