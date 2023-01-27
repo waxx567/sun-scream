@@ -257,6 +257,7 @@ h1 {
   background-color: hsl(218deg, 28%, 13%);
   padding-top: 2rem;
   bottom: 3.5rem;
+  border: 2px solid firebrick;
 }
 @media screen and (min-width: 63rem) {
   .intro-contents {
