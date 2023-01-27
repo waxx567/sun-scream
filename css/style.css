@@ -16,6 +16,10 @@ body {
   line-height: 1.5;
 }
 
+section {
+  background-color: hsl(218deg, 28%, 13%);
+}
+
 a, p {
   color: hsla(0deg, 0%, 95%, 0.9);
   text-decoration: none;
@@ -243,6 +247,11 @@ button:hover {
 .intro-content {
   position: relative;
   bottom: 12rem;
+}
+@media screen and (min-width: 35rem) {
+  .intro-content {
+    bottom: 15rem;
+  }
 }
 @media screen and (min-width: 49rem) {
   .intro-content {

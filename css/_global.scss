@@ -16,6 +16,10 @@ body {
     line-height: 1.5; // spacing between lines on screen
 }
 
+section {
+    background-color: $mainBlue;
+}
+
 a, p { 
     color: hsla(0, 0%, 95%, 0.9);
     text-decoration: none;
