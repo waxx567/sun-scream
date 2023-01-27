@@ -10,13 +10,10 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: hsl(218deg, 28%, 13%);
   font-family: "Open Sans", sans-serif;
   font-size: calc(1rem + 0.75vw);
   line-height: 1.5;
-}
-
-main {
-  background-color: hsl(218deg, 28%, 13%);
 }
 
 a, p {
@@ -264,17 +261,9 @@ p {
   margin-top: 2rem;
 }
 
-.features {
-  position: relative;
-  z-index: 2;
-}
-
 .features-container {
-  position: relative;
-  z-index: 2;
   text-align: center;
   padding-top: 9rem;
-  bottom: 12rem;
 }
 
 .feature:not(:last-child) {

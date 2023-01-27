@@ -10,13 +10,10 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: $mainBlue;
     font-family: $font-body; // Open Sans 
     font-size: calc(1rem + 0.75vw); // 16px is the base
     line-height: 1.5; // spacing between lines on screen
-}
-
-main {
-    background-color: $mainBlue;
 }
 
 a, p { 
