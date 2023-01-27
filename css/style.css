@@ -256,13 +256,26 @@ h1 {
   z-index: 2;
   background-color: hsl(218deg, 28%, 13%);
   padding-top: 2rem;
-  bottom: 3.5rem;
+  bottom: 3rem;
   border: 2px solid firebrick;
+}
+.intro-contents p {
+  padding: 1rem 3rem 0;
+  max-width: 45.3125rem;
+}
+@media screen and (min-width: 35rem) {
+  .intro-contents {
+    bottom: 4rem;
+  }
 }
 @media screen and (min-width: 63rem) {
   .intro-contents {
-    padding-top: 5rem;
     bottom: 5rem;
+  }
+}
+@media screen and (min-width: 87rem) {
+  .intro-contents {
+    bottom: 7rem;
   }
 }
 
@@ -272,11 +285,6 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-}
-
-p {
-  padding: 1rem 3rem 0;
-  max-width: 45.3125rem;
 }
 
 .intro__button {

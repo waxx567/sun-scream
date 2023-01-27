@@ -63,12 +63,24 @@ h1 {
     z-index: 2;
     background-color: $mainBlue;
     padding-top: 2rem;
-    bottom: 3.5rem;
+    bottom: 3rem;
     border: 2px solid firebrick;
 
+    p {
+        padding: 1rem 3rem 0;
+        max-width: 45.3125rem;
+    }
+
+    @include breakpoint(med) {
+        bottom: 4rem;
+    }
+
     @include breakpoint(xl) {
-        padding-top: 5rem;
         bottom: 5rem;
+    }
+
+    @include breakpoint(xxl) {
+        bottom: 7rem;
     }
 }
 
@@ -78,11 +90,6 @@ h1 {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-}
-
-p {
-    padding: 1rem 3rem 0;
-    max-width: 45.3125rem;
 }
 
 .intro__button {
