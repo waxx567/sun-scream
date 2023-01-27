@@ -64,7 +64,7 @@ h1 {
     background-color: $mainBlue;
     padding-top: 2rem;
     bottom: 2rem;
-    border: 2px solid firebrick;
+    //border: 2px solid firebrick;
 
     p {
         padding: 1rem 3rem 0;
@@ -79,11 +79,11 @@ h1 {
     }
 
     @include breakpoint(xl) {
-        bottom: 5rem;
+        bottom: 4.6rem;
     }
 
     @include breakpoint(xxl) {
-        bottom: 7rem;
+        bottom: 6.5rem;
     }
 }
 

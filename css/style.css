@@ -257,7 +257,6 @@ h1 {
   background-color: hsl(218deg, 28%, 13%);
   padding-top: 2rem;
   bottom: 2rem;
-  border: 2px solid firebrick;
 }
 .intro-contents p {
   padding: 1rem 3rem 0;
@@ -275,12 +274,12 @@ h1 {
 }
 @media screen and (min-width: 63rem) {
   .intro-contents {
-    bottom: 5rem;
+    bottom: 4.6rem;
   }
 }
 @media screen and (min-width: 87rem) {
   .intro-contents {
-    bottom: 7rem;
+    bottom: 6.5rem;
   }
 }
 
@@ -301,6 +300,13 @@ h1 {
   z-index: 3;
   bottom: 5rem;
   text-align: center;
+  align-items: center;
+}
+@media screen and (min-width: 49rem) {
+  .features-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .feature:not(:last-child) {
