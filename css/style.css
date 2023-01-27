@@ -196,62 +196,68 @@ button:hover {
   }
 }
 
-/*
+.intro {
+  background-color: hsl(217deg, 28%, 15%);
+}
+
+.intro-container {
+  position: relative;
+  z-index: 0;
+  background-color: hsl(217deg, 28%, 15%);
+}
+
 .intro-images {
-    position: relative;
-    z-index: 1;
-    background-color: $introBlue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-    > * {
-        position: relative;
-        z-index: 3;
-        margin: 0;
-    }
-
-    &:after {
-        content: '';
-        position: absolute;
-        z-index: 2;
-        width: 100%;
-        height: 40vw;
-        //bottom: 12rem;
-        background-image: url("/images/bg-curvy-mobile.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom center;
-        background-color: $introBlue;
-
-        @include breakpoint(lg) {
-            height: 33vw;
-            background-image: url("/images/bg-curvy-desktop.svg");
-        }
-    }
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.intro-images > * {
+  position: relative;
+  z-index: 3;
+  margin: 0;
+}
+.intro-images:after {
+  content: "";
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 40vw;
+  background-image: url("/images/bg-curvy-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: hsl(217deg, 28%, 15%);
+}
+@media screen and (min-width: 49rem) {
+  .intro-images:after {
+    height: 33vw;
+    background-image: url("/images/bg-curvy-desktop.svg");
+  }
 }
 
 .intro__pic {
-    width: 80%;
-    max-width: 62.5rem;
-    padding: 4.5rem 0 0 0;
+  width: 80%;
+  max-width: 62.5rem;
+  padding: 4.5rem 0 0 0;
 }
 
 h1 {
-    padding: 1rem 1rem 0;
-    max-width: 53.125rem;
+  padding: 1rem 1rem 0;
+  max-width: 53.125rem;
 }
 
 p {
-    padding: 1rem 3rem 0;
-    max-width: 45.3125rem;
+  padding: 1rem 3rem 0;
+  max-width: 45.3125rem;
 }
 
 .intro__button {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
-*/
+
 .features {
   position: relative;
 }
