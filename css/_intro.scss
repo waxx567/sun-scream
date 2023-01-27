@@ -22,7 +22,6 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
-        background-color: $introBlue;
 
         @include breakpoint(lg) {
             height: 33vw;
