@@ -1,7 +1,3 @@
-.intro {
-    //background-color: $introBlue;
-}
-
 .intro-container {
     position: relative;
     z-index: 0;
@@ -23,12 +19,6 @@
     text-align: center;
     background-color: $introBlue;
 
-    > * {
-        position: relative;
-        z-index: 3;
-        margin: 0;
-    }
-
     &:after {
         content: '';
         position: relative;
@@ -49,6 +39,8 @@
 }
 
 .intro__pic {
+    position: relative;
+    z-index: 3;
     width: 80%;
     max-width: 62.5rem;
     padding: 4.5rem 0 0 0;
@@ -60,8 +52,24 @@
 }
 
 h1 {
+    position: relative;
+    z-index: 3;
     padding: 1rem 1rem 0;
     max-width: 53.125rem;
+}
+
+.intro-contents {
+    position: relative;
+    z-index: 2;
+    background-color: $mainBlue;
+    padding-top: 2rem;
+    bottom: 3.5rem;
+}
+
+.intro__heading,
+.intro__text,
+.intro__button {
+    text-align: center;
 }
 
 p {
