@@ -1,6 +1,7 @@
 .intro-container {
     position: relative;
-    //background-color: $introBlue;
+    z-index: 1;
+    background-color: $introBlue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,13 +9,14 @@
 
     > * {
         position: relative;
-        z-index: 2;
+        z-index: 3;
         margin: 0;
     }
 
     &:after {
         content: '';
         position: absolute;
+        z-index: 1;
         width: 100%;
         height: 40vw;
         bottom: 12rem;
@@ -29,10 +31,6 @@
             background-image: url("/images/bg-curvy-desktop.svg");
         }
     }
-}
-
-.image-container {
-    background-color: $introBlue;
 }
 
 .intro__pic {

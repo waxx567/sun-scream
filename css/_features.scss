@@ -1,5 +1,10 @@
-.features-container {
+.features {
     position: relative;
+}
+
+.features-container {
+    position: absolute;
+    z-index: 2;
     top: -10rem;
     text-align: center;
     padding-top: 9rem;
