@@ -261,6 +261,7 @@ h1 {
 }
 @media screen and (min-width: 63rem) {
   .intro-contents {
+    padding-top: 5rem;
     bottom: 5rem;
   }
 }

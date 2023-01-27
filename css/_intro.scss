@@ -67,6 +67,7 @@ h1 {
     border: 2px solid firebrick;
 
     @include breakpoint(xl) {
+        padding-top: 5rem;
         bottom: 5rem;
     }
 }
