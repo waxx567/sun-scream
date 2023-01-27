@@ -371,20 +371,22 @@ h1 {
   }
 }
 
-.features__icon {
-  display: block;
+.features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: max-content;
   margin-right: auto;
   margin-left: auto;
 }
-.features__icon img {
+.features-icon img {
   width: 85%;
 }
 
 .features__heading h3 {
   margin-right: auto;
   margin-left: auto;
-  padding: 2rem 0 0;
+  padding: 2rem 0;
 }
 
 .features__text {
