@@ -1,11 +1,17 @@
 .intro {
-    background-color: $introBlue;
+    //background-color: $introBlue;
 }
 
 .intro-container {
     position: relative;
     z-index: 0;
-    background-color: $introBlue;
+    //background-color: $introBlue;
+
+    > * {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+    }
 }
 
 .intro-images {
@@ -15,6 +21,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: $introBlue;
 
     > * {
         position: relative;
@@ -28,12 +35,11 @@
         z-index: 2;
         width: 100%;
         height: 40vw;
-        //bottom: 12rem;
+        bottom: 2rem;
         background-image: url("/images/bg-curvy-mobile.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
-        background-color: $introBlue;
 
         @include breakpoint(lg) {
             height: 33vw;
@@ -46,6 +52,11 @@
     width: 80%;
     max-width: 62.5rem;
     padding: 4.5rem 0 0 0;
+}
+
+.intro-content {
+    position: relative;
+    bottom: 10rem;
 }
 
 h1 {
