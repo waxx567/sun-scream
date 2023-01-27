@@ -347,7 +347,7 @@ h1 {
   margin-right: auto;
   margin-left: auto;
 }
-@media screen and (min-width: 63rem) {
+@media screen and (min-width: 34rem) {
   .features-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
