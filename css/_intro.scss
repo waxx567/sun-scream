@@ -63,7 +63,7 @@ h1 {
     z-index: 2;
     background-color: $mainBlue;
     padding-top: 2rem;
-    bottom: 3rem;
+    bottom: 2rem;
     border: 2px solid firebrick;
 
     p {
@@ -72,7 +72,7 @@ h1 {
     }
 
     @include breakpoint(med) {
-        bottom: 4rem;
+        bottom: 2.9rem;
     }
 
     @include breakpoint(xl) {
