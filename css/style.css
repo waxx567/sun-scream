@@ -266,13 +266,15 @@ p {
 
 .features {
   position: relative;
+  z-index: 2;
 }
 
 .features-container {
+  position: relative;
   z-index: 2;
-  top: -12rem;
   text-align: center;
   padding-top: 9rem;
+  bottom: 12rem;
 }
 
 .feature:not(:last-child) {

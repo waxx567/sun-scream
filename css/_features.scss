@@ -1,13 +1,14 @@
 .features {
     position: relative;
+    z-index: 2;
 }
 
 .features-container {
-    //position: absolute;
+    position: relative;
     z-index: 2;
-    top: -12rem;
     text-align: center;
     padding-top: 9rem;
+    bottom: 12rem;
     //border: 1px solid yellow;
 }
 
