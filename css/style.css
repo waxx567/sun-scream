@@ -270,7 +270,7 @@ h1 {
 }
 @media screen and (min-width: 49rem) {
   .intro-contents {
-    bottom: 3.8rem;
+    bottom: 3.4rem;
   }
 }
 @media screen and (min-width: 63rem) {
