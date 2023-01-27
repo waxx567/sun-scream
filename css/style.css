@@ -489,6 +489,12 @@ h1 {
 .testimonial-box {
   margin: 1rem 0 2rem;
 }
+@media screen and (min-width: 63rem) {
+  .testimonial-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 .testimonial {
   position: relative;

@@ -16,6 +16,11 @@
 .testimonial-box {
     margin: 1rem 0 2rem;
     //border: 1px solid lightseagreen;
+
+    @include breakpoint(xl) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .testimonial {
