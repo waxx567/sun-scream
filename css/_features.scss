@@ -29,11 +29,11 @@
     }
 
     @include breakpoint(med) {
-        max-width: 80%;
+        max-width: 65%;
     }
 
     @include breakpoint(lg) {
-        max-width: 80%;
+        max-width: 30%;
 
         &:not(:last-child) {
             padding-bottom: 0;
