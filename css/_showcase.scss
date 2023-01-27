@@ -1,13 +1,16 @@
-.showcase {
-    padding: 3rem 2rem 0;
+.showcase-container {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-image {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .showcase__image {
-    padding: 4.5rem 0.5rem 0;
-
-    img {
-        width: 100%;
-    }
+    width: 100%;
 }
 
 .showcase__heading {
