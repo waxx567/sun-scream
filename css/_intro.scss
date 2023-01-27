@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: $introBlue;
+    //background-color: $introBlue;
 
     &:after {
         content: '';
@@ -26,21 +26,24 @@
         width: 100%;
         height: 40vw;
         bottom: 3rem;
+        background-color: $introBlue;
         background-image: url("/images/bg-curvy-mobile.svg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
 
         @include breakpoint(lg) {
-            height: 50vw;
+            height: 40vw;
             bottom: 0;
             background-image: url("/images/bg-curvy-desktop.svg");
         }
     }
+    //border: 2px solid navy;
 }
 
-.intro-images {
-    border: 2px solid navy;
+.intro-picture {
+    width: 100%;
+    background-color: $introBlue;
 }
 
 .intro__pic {
@@ -49,11 +52,27 @@
     width: 80%;
     max-width: 62.5rem;
     padding: 3rem 0 0 0;
+
+    @include breakpoint(med) {
+        width: 75%;
+    }
+
+    @include breakpoint(lg) {
+        width: 70%;
+    }
+
+    @include breakpoint(xl) {
+        width: 65%;
+    }
+
+    @include breakpoint(xxl) {
+        width: 60%;
+    }
 }
 
 .intro-content {
     position: relative;
-    bottom: 12rem;
+    bottom: 13rem;
 
     @include breakpoint(med) {
         bottom: 15rem;
@@ -66,25 +85,25 @@
     @include breakpoint(xl) {
         bottom: 37.5rem;
     }
-    border: 2px solid gold;
+    //border: 2px solid gold;
 }
 
 h1 {
     position: relative;
     z-index: 3;
-    padding: 2rem 1.5rem 0;
+    width: 85%;
+    padding: 2.5rem 0;
 }
 
 .intro-contents {
     position: relative;
     z-index: 2;
-    background-color: $mainBlue;
-    padding-top: 2rem;
-    bottom: 4rem;
+    //background-color: $mainBlue
+    bottom: 4.1rem;
     //border: 2px solid firebrick;
 
     p {
-        padding: 1rem 3rem 0;
+        padding: 1.5rem 3rem 0;
         max-width: 45.3125rem;
     }
 

@@ -214,7 +214,6 @@ button:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: hsl(217deg, 28%, 15%);
 }
 .intro-images:after {
   content: "";
@@ -223,6 +222,7 @@ button:hover {
   width: 100%;
   height: 40vw;
   bottom: 3rem;
+  background-color: hsl(217deg, 28%, 15%);
   background-image: url("/images/bg-curvy-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -230,14 +230,15 @@ button:hover {
 }
 @media screen and (min-width: 49rem) {
   .intro-images:after {
-    height: 50vw;
+    height: 40vw;
     bottom: 0;
     background-image: url("/images/bg-curvy-desktop.svg");
   }
 }
 
-.intro-images {
-  border: 2px solid navy;
+.intro-picture {
+  width: 100%;
+  background-color: hsl(217deg, 28%, 15%);
 }
 
 .intro__pic {
@@ -247,11 +248,30 @@ button:hover {
   max-width: 62.5rem;
   padding: 3rem 0 0 0;
 }
+@media screen and (min-width: 35rem) {
+  .intro__pic {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 49rem) {
+  .intro__pic {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .intro__pic {
+    width: 65%;
+  }
+}
+@media screen and (min-width: 87rem) {
+  .intro__pic {
+    width: 60%;
+  }
+}
 
 .intro-content {
   position: relative;
-  bottom: 12rem;
-  border: 2px solid gold;
+  bottom: 13rem;
 }
 @media screen and (min-width: 35rem) {
   .intro-content {
@@ -272,18 +292,17 @@ button:hover {
 h1 {
   position: relative;
   z-index: 3;
-  padding: 2rem 1.5rem 0;
+  width: 85%;
+  padding: 2.5rem 0;
 }
 
 .intro-contents {
   position: relative;
   z-index: 2;
-  background-color: hsl(218deg, 28%, 13%);
-  padding-top: 2rem;
-  bottom: 4rem;
+  bottom: 4.1rem;
 }
 .intro-contents p {
-  padding: 1rem 3rem 0;
+  padding: 1.5rem 3rem 0;
   max-width: 45.3125rem;
 }
 @media screen and (min-width: 35rem) {
