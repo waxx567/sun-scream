@@ -2,6 +2,11 @@
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
+
+    @include breakpoint(lg) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .showcase-image {
@@ -13,6 +18,9 @@
     width: 100%;
 }
 
+.showcase-content {
+    padding-left: 3rem;
+}
 .showcase__heading {
 
     h3 {

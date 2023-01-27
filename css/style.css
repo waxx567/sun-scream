@@ -318,6 +318,12 @@ p {
   display: flex;
   flex-direction: column;
 }
+@media screen and (min-width: 49rem) {
+  .showcase-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 
 .showcase-image {
   margin-right: auto;
@@ -326,6 +332,10 @@ p {
 
 .showcase__image {
   width: 100%;
+}
+
+.showcase-content {
+  padding-left: 3rem;
 }
 
 .showcase__heading h3 {
