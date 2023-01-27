@@ -11,13 +11,18 @@
         margin-left: auto;
     }
 
-    @include breakpoint(lg) {
+    @include breakpoint(xl) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
     }
 }
 
 .feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     
     &:not(:last-child) {
@@ -30,6 +35,10 @@
 
     @include breakpoint(lg) {
         max-width: 80%;
+
+        &:not(:last-child) {
+            padding-bottom: 0;
+        }
     }
 }
 
