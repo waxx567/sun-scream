@@ -1,7 +1,16 @@
-.feature {
+.features-container {
+    position: relative;
+    top: -10rem;
     text-align: center;
     padding-top: 9rem;
     //border: 1px solid yellow;
+}
+
+.feature {
+    
+    &:not(:last-child) {
+        padding-bottom: 6rem;
+    }
 }
 
 .features__icon {

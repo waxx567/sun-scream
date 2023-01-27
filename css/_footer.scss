@@ -2,13 +2,13 @@ footer {
     position: relative;
     z-index: 1;
     margin: 0;
-    padding: 16.5rem 0 0 0;
+    padding: 18rem 0 0 0;
     background-color: $footerBlue;
     //border: 1px solid tomato;
 }
 
 .footer-logo {
-    width: 100%;
+    width: 101%;
     padding: 0 0 0 3rem;
 }
 
@@ -16,13 +16,9 @@ footer {
     width: 50%;
     //border: 1px solid fuchsia;
 }
-/*
-.location__icon {
 
-}
-*/
 .contact-details {
-    padding: 0 0 0 2rem;
+    padding: 1.5rem 0 0 2rem;
     font-size: 1.1em;
 
     > * {
