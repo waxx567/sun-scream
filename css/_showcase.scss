@@ -4,6 +4,7 @@
     flex-direction: column;
 
     @include breakpoint(lg) {
+        padding: 3rem;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -20,7 +21,10 @@
 }
 
 .showcase-content {
-    padding-left: 3rem;
+
+    @include breakpoint(lg) {
+        padding-left: 3rem;
+    }
 }
 .showcase__heading {
 

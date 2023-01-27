@@ -320,6 +320,7 @@ p {
 }
 @media screen and (min-width: 49rem) {
   .showcase-container {
+    padding: 3rem;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -335,8 +336,10 @@ p {
   width: 100%;
 }
 
-.showcase-content {
-  padding-left: 3rem;
+@media screen and (min-width: 49rem) {
+  .showcase-content {
+    padding-left: 3rem;
+  }
 }
 
 .showcase__heading h3 {
