@@ -1,14 +1,14 @@
 .testimonials-container {
     position: relative;
-    padding: 11rem 3rem 0;
+    padding: 9rem 3.5rem 0;
     //border: 1px solid blue;
 }
 
 
 .testimonial__graphic {
     position: absolute;
-    top: 11rem;
-    left: 3rem; 
+    top: 9rem;
+    left: 4rem; 
     width: 6%;
     //border: 1px solid springgreen;
 }
@@ -36,8 +36,8 @@
 
 .testimonial__text {
     padding: 0 ;
-    font-size: 0.7em;
-    line-height: 2;
+    font-size: 0.6em;
+    line-height: 1.75;
     //border: 1px solid saddlebrown;
 }
 
