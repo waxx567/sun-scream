@@ -454,10 +454,12 @@ h1 {
 }
 
 .showcase__link {
+  margin-left: 2rem;
   width: max-content;
   align-items: center;
   font-size: 1.25em;
   width: max-content;
+  border: 1px solid lawngreen;
 }
 .showcase__link a {
   display: grid;
@@ -465,9 +467,12 @@ h1 {
   width: max-content;
   border: 1px solid gold;
 }
+.showcase__link a:hover {
+  color: hsl(0deg, 0%, 100%);
+}
 .showcase__link p {
   margin: 0;
-  padding: 0 0.5rem 0.2rem 0;
+  padding: 0 0.5rem 0 0;
   width: max-content;
   color: hsl(176deg, 68%, 64%);
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
@@ -476,7 +481,7 @@ h1 {
 .showcase__link img {
   margin: 0;
   width: max-content;
-  padding: 0.25rem 0 0.3rem 0;
+  padding: 0.1rem 0;
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
   border: 1px solid blueviolet;
 }

@@ -44,6 +44,7 @@
 }
 
 .showcase__link {
+    margin-left: 2rem;
     width: max-content;
     align-items: center;
     font-size: 1.25em;
@@ -54,11 +55,15 @@
         grid-template-columns: 4fr 1fr;
         width: max-content;
         border: 1px solid gold;
+
+        &:hover {
+            color: $white;
+        }   
     }    
 
     p { // Text
         margin: 0;
-        padding: 0 0.5rem 0.2rem 0;
+        padding: 0 0.5rem 0 0;
         width: max-content;
         color: $greenCyan;
         border-bottom: 2px solid $greenCyan;
@@ -68,8 +73,9 @@
     img { // Icon
         margin: 0;
         width: max-content;
-        padding: 0.25rem 0 0.3rem 0;
+        padding: 0.1rem 0;
         border-bottom: 2px solid $greenCyan;
         border: 1px solid blueviolet;
     }
+    border: 1px solid lawngreen;
 }
