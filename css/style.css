@@ -358,7 +358,7 @@ h1 {
 .feature {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   align-items: center;
   align-items: stretch;
   border: 2px solid fuchsia;
@@ -387,25 +387,33 @@ h1 {
   width: max-content;
   margin-right: auto;
   margin-left: auto;
+  border: 1px solid firebrick;
 }
 .features-icon img {
   width: 85%;
 }
 
+.features__heading {
+  border: 1px solid hotpink;
+}
 .features__heading h3 {
+  margin: 0;
   margin-right: auto;
   margin-left: auto;
-  padding: 2rem 0;
+  padding: 2rem 0 0;
 }
 
 .features__text {
   padding: 0 1.75rem;
+  border: 1px solid blue;
 }
 .features__text p {
+  margin: 0;
   max-width: 30rem;
   margin-right: auto;
   margin-left: auto;
-  padding: 0.75rem 0 0;
+  padding: 1rem 0;
+  border: 1px solid gold;
 }
 
 .showcase-container {
