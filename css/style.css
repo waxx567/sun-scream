@@ -639,6 +639,10 @@ h1 {
 .signup-container input {
   width: 21rem;
 }
+.signup-container button {
+  padding: 1rem 4.5rem;
+  font-size: 0.7em;
+}
 
 .signup-text {
   padding-bottom: 1rem;
@@ -649,7 +653,7 @@ h1 {
 
 .signup__textarea {
   max-width: 85%;
-  height: 3.5rem;
+  height: 3rem;
   margin-bottom: 2rem;
   border-radius: 1.75rem;
   border: none;
@@ -672,6 +676,26 @@ footer {
 
 .footer__logo {
   width: 50%;
+}
+@media screen and (min-width: 34rem) {
+  .footer__logo {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 52rem) {
+  .footer__logo {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .footer__logo {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 82rem) {
+  .footer__logo {
+    width: 20%;
+  }
 }
 
 .contact-details {

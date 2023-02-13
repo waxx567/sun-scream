@@ -14,6 +14,19 @@ footer {
 
 .footer__logo {
     width: 50%;
+
+    @include breakpoint(med) {
+        width: 40%;
+    }
+    @include breakpoint(lg) {
+        width:35%;
+    }
+    @include breakpoint(xl) {
+        width: 30%;
+    }
+    @include breakpoint(xxl) {
+        width: 20%;
+    }
     //border: 1px solid fuchsia;
 }
 

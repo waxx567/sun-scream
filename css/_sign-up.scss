@@ -17,6 +17,12 @@
     input {
         width: 21rem;
     }
+
+    button {
+        padding: 1rem 4.5rem;
+        font-size: 0.7em;
+    }
+
     //border: 1px solid aqua;
 }
 
@@ -30,7 +36,7 @@
 
 .signup__textarea {
     max-width: 85%;
-    height: 3.5rem;
+    height: 3rem;
     margin-bottom: 2rem;
     border-radius: 1.75rem;
     border: none;
