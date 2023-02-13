@@ -20,7 +20,7 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    //border: 2px solid wheat;
+    border: 2px solid wheat;
     
     @include breakpoint(lg) {
         display: block;
@@ -44,9 +44,20 @@
 .showcase-content {
 
     @include breakpoint(lg) {
+        display: flex;
+        flex-direction: column;
+        //align-items: center;
+        justify-content: space-between;
         padding-left: 0;
     }
-    //border: 2px solid hotpink;
+
+    & > * {
+        margin: 0;
+        padding: 0;
+        border: 1px solid teal;
+    }
+
+    border: 2px solid hotpink;
 }
 
 .showcase__heading {
@@ -71,14 +82,16 @@
 
 .showcase__link {
     margin: 0 0 0 2rem;
+    padding: 0;
     width: max-content;
     font-size: 1.25em;
+    text-align: left;
 
     a { // Links x 2
         display: flex;
         flex-direction: row;
         border-bottom: 2px solid $greenCyan;
-        //border: 1px solid gold;
+        border: 1px solid gold;
 
         &:hover {
             color: $white;
@@ -98,11 +111,10 @@
     }
 
     img { // Icon
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: 0;
         width: max-content;
-        padding: 0.1rem 0;
+        padding: 0;
         //border: 1px solid blueviolet;
     }
-    //border: 1px solid lawngreen;
+    border: 1px solid lawngreen;
 }

@@ -356,7 +356,7 @@ h1 {
   .features-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 3rem;
+    row-gap: 5rem;
     column-gap: 0;
     align-items: stretch;
   }
@@ -446,6 +446,7 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  border: 2px solid wheat;
 }
 @media screen and (min-width: 52rem) {
   .showcase-image {
@@ -466,10 +467,21 @@ h1 {
   }
 }
 
+.showcase-content {
+  border: 2px solid hotpink;
+}
 @media screen and (min-width: 52rem) {
   .showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding-left: 0;
   }
+}
+.showcase-content > * {
+  margin: 0;
+  padding: 0;
+  border: 1px solid teal;
 }
 
 .showcase__heading h3 {
@@ -488,13 +500,17 @@ h1 {
 
 .showcase__link {
   margin: 0 0 0 2rem;
+  padding: 0;
   width: max-content;
   font-size: 1.25em;
+  text-align: left;
+  border: 1px solid lawngreen;
 }
 .showcase__link a {
   display: flex;
   flex-direction: row;
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
+  border: 1px solid gold;
 }
 .showcase__link a:hover {
   color: hsl(0deg, 0%, 100%);
@@ -509,10 +525,9 @@ h1 {
   color: hsl(0deg, 0%, 100%);
 }
 .showcase__link img {
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 0;
   width: max-content;
-  padding: 0.1rem 0;
+  padding: 0;
 }
 
 .testimonials-container {
