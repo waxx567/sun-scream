@@ -32,7 +32,7 @@
     img {
         cursor: pointer;
         display: block;
-        width: 50%;
+        width: 40%;
         //border: 2px solid red;
 
         @include breakpoint(med) {
@@ -58,7 +58,7 @@
         transition: color 200ms ease-in-out;
     
         &:hover {
-            color: $paleRed;
+            color: $white;
         }
 
         @include breakpoint(med) {
