@@ -1,6 +1,6 @@
 .testimonials-container {
     position: relative;
-    padding: 9rem 3.5rem 0;
+    padding: 9rem 3rem 0;
     //border: 1px solid blue;
 }
 
@@ -8,7 +8,7 @@
 .testimonial__graphic {
     position: absolute;
     top: 9rem;
-    left: 4rem; 
+    left: 3.5rem; 
     width: 5%;
     //border: 1px solid springgreen;
 }
@@ -29,14 +29,14 @@
     z-index: 2;
     margin-bottom: 1.5rem;
     background-color: $testimBlue;
-    padding: 1rem 2rem 0.75rem 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 0.325rem;
     //border: 1px solid darkred;
 }
 
 .testimonial__text {
     padding: 0;
-    font-size: 0.5em;
+    font-size: 0.55em;
     line-height: 1.75;
     //border: 1px solid saddlebrown;
 }
@@ -48,34 +48,38 @@
     //border: 3px solid goldenrod;
 }
 
-.person-image {
-    width: max-content;
+.person-image {  
+
+    padding: 0;
     margin-right: 0.5rem;
 
     img {
         width: 1.75rem;
-        border: 1px solid mediumvioletred;
+        //border: 1px solid mediumvioletred;
     }
-    border: 1px solid darkcyan;
+    //border: 1px solid darkcyan;
 }
 
 .person__image {
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .person__name {
-    margin: 0.2rem 0;
+    margin: 0.1rem 0;
     padding: 0;
     width: max-content;
     font-size: 0.5em;
     font-weight: 700;
-    border: 1px solid blueviolet;
+    //border: 1px solid blueviolet;
 }
 
 .person__title {
     margin: 0;
     padding: 0;
     width: max-content;
-    font-size: 0.35em;
-    border: 1px solid yellowgreen;
+    font-size: 0.425em;
+    //border: 1px solid yellowgreen;
 }
