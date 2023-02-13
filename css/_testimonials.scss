@@ -9,7 +9,7 @@
     position: absolute;
     top: 9rem;
     left: 4rem; 
-    width: 6%;
+    width: 5%;
     //border: 1px solid springgreen;
 }
 
@@ -29,14 +29,14 @@
     z-index: 2;
     margin-bottom: 1.5rem;
     background-color: $testimBlue;
-    padding: 1rem 2rem 0.75rem;
+    padding: 1rem 2rem 0.75rem 1rem;
     border-radius: 0.325rem;
     //border: 1px solid darkred;
 }
 
 .testimonial__text {
-    padding: 0 ;
-    font-size: 0.6em;
+    padding: 0;
+    font-size: 0.5em;
     line-height: 1.75;
     //border: 1px solid saddlebrown;
 }
@@ -49,13 +49,14 @@
 }
 
 .person-image {
-    width: 3.5rem;
-    padding-top: 0.5rem;
+    width: max-content;
+    margin-right: 0.5rem;
 
     img {
         width: 1.75rem;
-        //border: 1px solid mediumvioletred;
+        border: 1px solid mediumvioletred;
     }
+    border: 1px solid darkcyan;
 }
 
 .person__image {
@@ -66,15 +67,15 @@
     margin: 0.2rem 0;
     padding: 0;
     width: max-content;
-    font-size: 0.6em;
+    font-size: 0.5em;
     font-weight: 700;
-    //border: 1px solid blueviolet;
+    border: 1px solid blueviolet;
 }
 
 .person__title {
     margin: 0;
     padding: 0;
     width: max-content;
-    font-size: 0.5em;
-    //border: 1px solid yellowgreen;
+    font-size: 0.35em;
+    border: 1px solid yellowgreen;
 }

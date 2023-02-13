@@ -446,7 +446,6 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  border: 2px solid wheat;
 }
 @media screen and (min-width: 52rem) {
   .showcase-image {
@@ -467,9 +466,6 @@ h1 {
   }
 }
 
-.showcase-content {
-  border: 2px solid hotpink;
-}
 @media screen and (min-width: 52rem) {
   .showcase-content {
     display: flex;
@@ -481,7 +477,6 @@ h1 {
 .showcase-content > * {
   margin: 0;
   padding: 0;
-  border: 1px solid teal;
 }
 
 .showcase__heading h3 {
@@ -490,12 +485,17 @@ h1 {
 @media screen and (min-width: 52rem) {
   .showcase__heading h3 {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1.15em;
   }
 }
 
 .showcase__text p {
   line-height: 1.5;
+}
+@media screen and (min-width: 52rem) {
+  .showcase__text p {
+    font-size: 0.7em;
+  }
 }
 
 .showcase__link {
@@ -504,13 +504,30 @@ h1 {
   width: max-content;
   font-size: 1.25em;
   text-align: left;
-  border: 1px solid lawngreen;
 }
 .showcase__link a {
   display: flex;
   flex-direction: row;
+  padding-bottom: 0.1rem;
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
-  border: 1px solid gold;
+  /*
+          @include breakpoint(xl) {
+              padding-bottom: 0.4rem;
+          }
+
+          @include breakpoint(xxl) {
+              padding-bottom: 0.5rem;
+          }*/
+}
+@media screen and (min-width: 34rem) {
+  .showcase__link a {
+    padding-bottom: 0.2rem;
+  }
+}
+@media screen and (min-width: 52rem) {
+  .showcase__link a {
+    padding-bottom: 0.3rem;
+  }
 }
 .showcase__link a:hover {
   color: hsl(0deg, 0%, 100%);
@@ -526,7 +543,6 @@ h1 {
 }
 .showcase__link img {
   margin: 0;
-  width: max-content;
   padding: 0;
 }
 
@@ -539,7 +555,7 @@ h1 {
   position: absolute;
   top: 9rem;
   left: 4rem;
-  width: 6%;
+  width: 5%;
 }
 
 .testimonial-box {
@@ -558,13 +574,13 @@ h1 {
   z-index: 2;
   margin-bottom: 1.5rem;
   background-color: hsl(219deg, 30%, 18%);
-  padding: 1rem 2rem 0.75rem;
+  padding: 1rem 2rem 0.75rem 1rem;
   border-radius: 0.325rem;
 }
 
 .testimonial__text {
   padding: 0;
-  font-size: 0.6em;
+  font-size: 0.5em;
   line-height: 1.75;
 }
 
@@ -575,11 +591,13 @@ h1 {
 }
 
 .person-image {
-  width: 3.5rem;
-  padding-top: 0.5rem;
+  width: max-content;
+  margin-right: 0.5rem;
+  border: 1px solid darkcyan;
 }
 .person-image img {
   width: 1.75rem;
+  border: 1px solid mediumvioletred;
 }
 
 .person__image {
@@ -590,15 +608,17 @@ h1 {
   margin: 0.2rem 0;
   padding: 0;
   width: max-content;
-  font-size: 0.6em;
+  font-size: 0.5em;
   font-weight: 700;
+  border: 1px solid blueviolet;
 }
 
 .person__title {
   margin: 0;
   padding: 0;
   width: max-content;
-  font-size: 0.5em;
+  font-size: 0.35em;
+  border: 1px solid yellowgreen;
 }
 
 .signup {
