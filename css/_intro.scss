@@ -78,7 +78,7 @@
     bottom: 13rem;
 
     @include breakpoint(med) {
-        bottom: 15rem;
+        bottom: 18rem;
     }
 
     @include breakpoint(lg) {
@@ -108,6 +108,10 @@ h1 {
     p {
         padding: 0;
         width: 75%;
+
+        @include breakpoint(med) {
+            padding: 0 1rem;
+        }
     }
 }
 

@@ -109,7 +109,7 @@ button:hover {
 }
 @media screen and (min-width: 34rem) {
   .header-container img {
-    width: 43.75%;
+    width: 38%;
   }
 }
 @media screen and (min-width: 52rem) {
@@ -279,7 +279,7 @@ button:hover {
 }
 @media screen and (min-width: 34rem) {
   .intro-content {
-    bottom: 15rem;
+    bottom: 18rem;
   }
 }
 @media screen and (min-width: 52rem) {
@@ -308,6 +308,11 @@ h1 {
 .intro-contents p {
   padding: 0;
   width: 75%;
+}
+@media screen and (min-width: 34rem) {
+  .intro-contents p {
+    padding: 0 1rem;
+  }
 }
 
 .intro__heading,
