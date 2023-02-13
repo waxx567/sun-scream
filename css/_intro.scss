@@ -77,11 +77,11 @@
     bottom: 9rem;
 
     @include breakpoint(med) {
-        bottom: 17rem;
+        bottom: 14rem;
     }
 
     @include breakpoint(lg) {
-        bottom: 17rem;
+        bottom: 20rem;
     }
 
     @include breakpoint(xl) {

@@ -14,7 +14,8 @@
     @include breakpoint(lg) {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 5rem 1rem;
+        row-gap: 0;
+        column-gap: 0;
     }
 }
 
@@ -29,7 +30,8 @@
         padding-top: 5rem;
 
         @include breakpoint(lg) {
-            padding-top: 0;
+            width: 100%;
+            padding: 0;
         }
     }
 
