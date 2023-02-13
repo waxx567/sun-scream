@@ -425,7 +425,6 @@ h1 {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  border: 1px solid coral;
 }
 @media screen and (min-width: 34rem) {
   .showcase-container {
@@ -445,7 +444,11 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  border: 2px solid wheat;
+}
+@media screen and (min-width: 52rem) {
+  .showcase-image {
+    display: block;
+  }
 }
 
 .showcase__image {
@@ -453,13 +456,14 @@ h1 {
 }
 @media screen and (min-width: 52rem) {
   .showcase__image {
-    width: 100%;
+    width: 90%;
+  }
+  .showcase__image img {
+    margin: auto;
+    display: block;
   }
 }
 
-.showcase-content {
-  border: 2px solid hotpink;
-}
 @media screen and (min-width: 52rem) {
   .showcase-content {
     padding-left: 0;
@@ -468,7 +472,6 @@ h1 {
 
 .showcase__heading h3 {
   margin-top: 2rem;
-  border: 1px solid purple;
 }
 @media screen and (min-width: 52rem) {
   .showcase__heading h3 {
@@ -486,13 +489,11 @@ h1 {
   align-items: center;
   font-size: 1.25em;
   width: max-content;
-  border: 1px solid lawngreen;
 }
 .showcase__link a {
   display: grid;
   grid-template-columns: 4fr 1fr;
   width: max-content;
-  border: 1px solid gold;
 }
 .showcase__link a:hover {
   color: hsl(0deg, 0%, 100%);
@@ -503,7 +504,6 @@ h1 {
   width: max-content;
   color: hsl(176deg, 68%, 64%);
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
-  border: 1px solid violet;
 }
 .showcase__link p:hover {
   color: hsl(0deg, 0%, 100%);
@@ -514,7 +514,6 @@ h1 {
   width: max-content;
   padding: 0.1rem 0;
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
-  border: 1px solid blueviolet;
 }
 
 .testimonials-container {
