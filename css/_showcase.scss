@@ -9,7 +9,8 @@
     }
 
     @include breakpoint(lg) {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     border: 1px solid coral;
 }
@@ -23,6 +24,10 @@
 
 .showcase__image {
     width: 85%;
+
+    @include breakpoint(lg) {
+        width: 100%;
+    }
 }
 
 .showcase-content {
@@ -38,6 +43,10 @@
     h3 {
         margin-top: 2rem;
         border: 1px solid purple;
+
+        @include breakpoint(lg) {
+            margin: 0;
+        }
     }
 }
 
@@ -80,7 +89,8 @@
     }
 
     img { // Icon
-        margin: 0;
+        margin-top: auto;
+        margin-bottom: auto;
         width: max-content;
         padding: 0.1rem 0;
         border-bottom: 2px solid $greenCyan;

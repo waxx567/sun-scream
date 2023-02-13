@@ -435,7 +435,8 @@ h1 {
 }
 @media screen and (min-width: 52rem) {
   .showcase-container {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -448,6 +449,11 @@ h1 {
 
 .showcase__image {
   width: 85%;
+}
+@media screen and (min-width: 52rem) {
+  .showcase__image {
+    width: 100%;
+  }
 }
 
 .showcase-content {
@@ -462,6 +468,11 @@ h1 {
 .showcase__heading h3 {
   margin-top: 2rem;
   border: 1px solid purple;
+}
+@media screen and (min-width: 52rem) {
+  .showcase__heading h3 {
+    margin: 0;
+  }
 }
 
 .showcase__text p {
@@ -497,7 +508,8 @@ h1 {
   color: hsl(0deg, 0%, 100%);
 }
 .showcase__link img {
-  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
   width: max-content;
   padding: 0.1rem 0;
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
