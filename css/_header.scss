@@ -59,6 +59,7 @@
     
         &:hover {
             color: $white;
+            text-decoration: underline;
         }
 
         @include breakpoint(med) {

@@ -135,6 +135,7 @@ button:hover {
 }
 .header-container a:hover {
   color: hsl(0deg, 0%, 100%);
+  text-decoration: underline;
 }
 @media screen and (min-width: 34rem) {
   .header-container a {
