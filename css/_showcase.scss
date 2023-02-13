@@ -57,6 +57,7 @@
 
         @include breakpoint(lg) {
             margin: 0;
+            font-size: 1.1em;
         }
     }
 }
@@ -69,7 +70,7 @@
 }
 
 .showcase__link {
-    margin-left: 2rem;
+    margin: 0 0 0 2rem;
     width: max-content;
     align-items: center;
     font-size: 1.25em;
@@ -77,9 +78,9 @@
 
     a { // Links x 2
         display: grid;
-        grid-template-columns: 4fr 1fr;
-        width: max-content;
-        //border: 1px solid gold;
+        grid-template-columns: 3fr 1fr;
+        border-bottom: 2px solid $greenCyan;
+        border: 1px solid gold;
 
         &:hover {
             color: $white;
@@ -91,7 +92,6 @@
         padding: 0 0.5rem 0 0;
         width: max-content;
         color: $greenCyan;
-        border-bottom: 2px solid $greenCyan;
         //border: 1px solid violet;
         
         &:hover {
@@ -104,7 +104,6 @@
         margin-bottom: auto;
         width: max-content;
         padding: 0.1rem 0;
-        border-bottom: 2px solid $greenCyan;
         //border: 1px solid blueviolet;
     }
     //border: 1px solid lawngreen;

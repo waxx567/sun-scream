@@ -18,7 +18,7 @@ $fa-font-path: "./webfonts";
 @mixin breakpoint($size) {
     
     $breakpoints: ( // map
-        sm: 23rem, // 368px
+        sm: 22rem, // 352px
         med: 34rem, // 544px
         lg: 52rem, // 832px
         xl: 63rem, // 1008px 

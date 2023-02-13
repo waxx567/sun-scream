@@ -476,6 +476,7 @@ h1 {
 @media screen and (min-width: 52rem) {
   .showcase__heading h3 {
     margin: 0;
+    font-size: 1.1em;
   }
 }
 
@@ -484,7 +485,7 @@ h1 {
 }
 
 .showcase__link {
-  margin-left: 2rem;
+  margin: 0 0 0 2rem;
   width: max-content;
   align-items: center;
   font-size: 1.25em;
@@ -492,8 +493,9 @@ h1 {
 }
 .showcase__link a {
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  width: max-content;
+  grid-template-columns: 3fr 1fr;
+  border-bottom: 2px solid hsl(176deg, 68%, 64%);
+  border: 1px solid gold;
 }
 .showcase__link a:hover {
   color: hsl(0deg, 0%, 100%);
@@ -503,7 +505,6 @@ h1 {
   padding: 0 0.5rem 0 0;
   width: max-content;
   color: hsl(176deg, 68%, 64%);
-  border-bottom: 2px solid hsl(176deg, 68%, 64%);
 }
 .showcase__link p:hover {
   color: hsl(0deg, 0%, 100%);
@@ -513,7 +514,6 @@ h1 {
   margin-bottom: auto;
   width: max-content;
   padding: 0.1rem 0;
-  border-bottom: 2px solid hsl(176deg, 68%, 64%);
 }
 
 .testimonials-container {
