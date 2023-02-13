@@ -425,12 +425,17 @@ h1 {
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  border: 1px solid coral;
+}
+@media screen and (min-width: 34rem) {
+  .showcase-container {
+    padding: 3rem;
+    justify-content: space-between;
+  }
 }
 @media screen and (min-width: 52rem) {
   .showcase-container {
-    padding: 3rem;
     flex-direction: row;
-    justify-content: space-between;
   }
 }
 
@@ -438,12 +443,16 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  border: 2px solid wheat;
 }
 
 .showcase__image {
   width: 85%;
 }
 
+.showcase-content {
+  border: 2px solid hotpink;
+}
 @media screen and (min-width: 52rem) {
   .showcase-content {
     padding-left: 2rem;
@@ -452,6 +461,7 @@ h1 {
 
 .showcase__heading h3 {
   margin-top: 2rem;
+  border: 1px solid purple;
 }
 
 .showcase__text p {
@@ -464,11 +474,13 @@ h1 {
   align-items: center;
   font-size: 1.25em;
   width: max-content;
+  border: 1px solid lawngreen;
 }
 .showcase__link a {
   display: grid;
   grid-template-columns: 4fr 1fr;
   width: max-content;
+  border: 1px solid gold;
 }
 .showcase__link a:hover {
   color: hsl(0deg, 0%, 100%);
@@ -479,6 +491,7 @@ h1 {
   width: max-content;
   color: hsl(176deg, 68%, 64%);
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
+  border: 1px solid violet;
 }
 .showcase__link p:hover {
   color: hsl(0deg, 0%, 100%);
@@ -488,6 +501,7 @@ h1 {
   width: max-content;
   padding: 0.1rem 0;
   border-bottom: 2px solid hsl(176deg, 68%, 64%);
+  border: 1px solid blueviolet;
 }
 
 .testimonials-container {
