@@ -11,7 +11,7 @@
         margin-left: auto;
     }
 
-    @include breakpoint(med) {
+    @include breakpoint(lg) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
@@ -27,10 +27,14 @@
     
     &:not(:first-child) {
         padding-top: 5rem;
+
+        @include breakpoint(lg) {
+            padding-top: 0;
+        }
     }
 
     @include breakpoint(med) {
-        max-width: 65%;
+        max-width: 80%;
     }
 
     @include breakpoint(lg) {

@@ -279,7 +279,7 @@ button:hover {
 }
 @media screen and (min-width: 34rem) {
   .intro-content {
-    bottom: 18rem;
+    bottom: 17rem;
   }
 }
 @media screen and (min-width: 52rem) {
@@ -353,7 +353,7 @@ h1 {
   margin-right: auto;
   margin-left: auto;
 }
-@media screen and (min-width: 34rem) {
+@media screen and (min-width: 52rem) {
   .features-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -371,9 +371,14 @@ h1 {
 .feature:not(:first-child) {
   padding-top: 5rem;
 }
+@media screen and (min-width: 52rem) {
+  .feature:not(:first-child) {
+    padding-top: 0;
+  }
+}
 @media screen and (min-width: 34rem) {
   .feature {
-    max-width: 65%;
+    max-width: 80%;
   }
 }
 @media screen and (min-width: 52rem) {
