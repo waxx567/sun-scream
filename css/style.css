@@ -33,7 +33,7 @@ a {
 p {
   padding: 0 2rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 0.8em;
+  font-size: 0.75em;
 }
 
 h1, h2, h3, h4 {
@@ -362,10 +362,9 @@ h1 {
   width: 80%;
   align-items: center;
   align-items: stretch;
-  border: 2px solid fuchsia;
 }
-.feature:not(:last-child) {
-  padding-bottom: 6rem;
+.feature:not(:first-child) {
+  padding-top: 5rem;
 }
 @media screen and (min-width: 34rem) {
   .feature {
@@ -388,33 +387,28 @@ h1 {
   width: max-content;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid firebrick;
 }
 .features-icon img {
   width: 85%;
 }
 
-.features__heading {
-  border: 1px solid hotpink;
-}
 .features__heading h3 {
   margin: 0;
   margin-right: auto;
   margin-left: auto;
-  padding: 2rem 0 0;
+  padding: 2.5rem 0 0;
 }
 
 .features__text {
+  font-size: 1em;
   padding: 0 1.75rem;
-  border: 1px solid blue;
 }
 .features__text p {
   margin: 0;
   max-width: 30rem;
   margin-right: auto;
   margin-left: auto;
-  padding: 1rem 0;
-  border: 1px solid gold;
+  padding: 0.5rem 0 0;
 }
 
 .showcase-container {
