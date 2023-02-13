@@ -14,7 +14,7 @@
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    border: 2px solid wheat;
+    //border: 2px solid wheat;
 }
 
 .showcase__image {
@@ -26,20 +26,20 @@
     @include breakpoint(lg) {
         padding-left: 2rem;
     }
-    border: 2px solid hotpink;
+    //border: 2px solid hotpink;
 }
 .showcase__heading {
 
     h3 {
         margin-top: 2rem;
-        border: 1px solid purple;
+        //border: 1px solid purple;
     }
 }
 
 .showcase__text {
 
     p {
-        line-height: 1.4;
+        line-height: 1.5;
     }
 }
 
@@ -54,7 +54,7 @@
         display: grid;
         grid-template-columns: 4fr 1fr;
         width: max-content;
-        border: 1px solid gold;
+        //border: 1px solid gold;
 
         &:hover {
             color: $white;
@@ -67,7 +67,11 @@
         width: max-content;
         color: $greenCyan;
         border-bottom: 2px solid $greenCyan;
-        border: 1px solid violet;
+        //border: 1px solid violet;
+        
+        &:hover {
+            color: $white;
+        }   
     }
 
     img { // Icon
@@ -75,7 +79,7 @@
         width: max-content;
         padding: 0.1rem 0;
         border-bottom: 2px solid $greenCyan;
-        border: 1px solid blueviolet;
+        //border: 1px solid blueviolet;
     }
-    border: 1px solid lawngreen;
+    //border: 1px solid lawngreen;
 }
