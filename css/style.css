@@ -560,7 +560,7 @@ h1 {
   position: relative;
   z-index: 2;
   bottom: -7rem;
-  padding: 1.5rem 0.25rem 2rem;
+  padding: 1.5rem 0.5rem 2rem;
   border-radius: 0.5rem;
   background-color: hsl(217deg, 28%, 15%);
   box-shadow: 0.4rem 0.45rem hsla(0deg, 0%, 0%, 0.075);
@@ -596,7 +596,7 @@ footer {
 }
 
 .footer-logo {
-  width: 101%;
+  width: 95%;
   padding: 0 0 0 3rem;
 }
 
@@ -605,8 +605,8 @@ footer {
 }
 
 .contact-details {
-  padding: 1.5rem 0 0 2rem;
-  font-size: 1.1em;
+  padding: 1.5rem 1.5rem 0 2rem;
+  font-size: 1.25em;
 }
 .contact-details > * {
   margin: 0;
