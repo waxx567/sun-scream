@@ -356,8 +356,9 @@ h1 {
   .features-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 0;
+    row-gap: 3rem;
     column-gap: 0;
+    align-items: stretch;
   }
 }
 
@@ -366,7 +367,7 @@ h1 {
   flex-direction: column;
   width: 80%;
   align-items: center;
-  align-items: stretch;
+  justify-content: space-between;
 }
 .feature:not(:first-child) {
   padding-top: 5rem;
