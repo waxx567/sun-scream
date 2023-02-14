@@ -13,7 +13,7 @@ footer {
 }
 
 .footer__logo {
-    width: 50%;
+    width: 55%;
 
     @include breakpoint(med) {
         width: 35%;
@@ -64,8 +64,8 @@ footer {
 
 .location-directions {
     margin: 0.1rem 0 0 0;
-    padding: 0 1.5rem 0 0;
-    font-size: 0.6em;
+    padding: 0;
+    font-size: 1.1em;
     border: 1px solid navy;
 }
 
@@ -75,6 +75,7 @@ footer {
 }
 
 .footer-phone {
+    display: flex;
     padding-top: 1rem;
 }
 
@@ -99,6 +100,7 @@ footer {
 }
 
 .footer-email {
+    display: flex;
     margin: 0;
     padding: 1rem 0 0 0;
     text-align: left;
@@ -135,7 +137,12 @@ footer {
 .links-current {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 3rem 0 0;
     border: 1px solid blue;
+
+    a {
+        font-size: 0.9em;
+    }
 }
 
 .footer__link:not(first-child) {
@@ -147,6 +154,10 @@ footer {
     grid-template-columns: 1fr;
     padding: 2rem 0 0 0;
     border: 1px solid firebrick;
+
+    a {
+        font-size: 0.9em;
+    }
 }
 
 .social-icons {
