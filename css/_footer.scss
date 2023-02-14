@@ -27,7 +27,7 @@ footer {
     @include breakpoint(xxl) {
         width: 15%;
     }
-    border: 1px solid fuchsia;
+    //border: 1px solid fuchsia;
 }
 
 .footer-information {
@@ -47,18 +47,14 @@ footer {
             padding: 0 0 0 2rem;
         }
     }
-    border: 1px solid yellow;
+    //border: 1px solid yellow;
 }
 
 .footer-location {
     display: flex;
     margin: 0;
     padding: 3rem 0 0 0;
-    border: 1px solid lime;
-/*
-    @include breakpoint(xl) {
-        padding-top: 0;
-    }*/
+    //border: 1px solid lime;
 }
 
 .location-icon {
@@ -70,7 +66,7 @@ footer {
     margin: 0.1rem 0 0 0;
     padding: 0;
     font-size: 1.1em;
-    border: 1px solid navy;
+    //border: 1px solid navy;
 }
 
 .location__directions {
@@ -82,11 +78,11 @@ footer {
 .contact-details {
     margin: 0;
     padding: 0;
-    border: 1px solid deepskyblue;
 
     @include breakpoint(xl) {
-        padding-top: 2.25rem;
+        padding-top: 2rem;
     }
+    //border: 1px solid deepskyblue;
 }
 
 .footer-phone {
@@ -94,7 +90,7 @@ footer {
     padding-top: 1rem;
 
     @include breakpoint(xl) {
-        padding-top: 2.25rem;
+        padding-top: 1.2rem;
     }
 }
 
@@ -110,7 +106,7 @@ footer {
     p {
         font-size: 0.75em;
     }
-    border: 1px solid navy;
+    //border: 1px solid navy;
 }
 
 .phone__number {
@@ -124,7 +120,7 @@ footer {
     padding: 1rem 0 0 0;
     text-align: left;
     width: max-content;
-    border: 2px solid navy;
+    //border: 2px solid navy;
 }
 
 .email-icon {
@@ -139,7 +135,7 @@ footer {
     p {
         font-size: 0.7em;
     }
-    border: 1px solid navy;
+    //border: 1px solid navy;
 }
 
 .email__address {
@@ -161,7 +157,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     padding: 3rem 0 0;
-    border: 1px solid blue;
+    //border: 1px solid blue;
 
     a {
         font-size: 0.9em;
@@ -169,6 +165,10 @@ footer {
 
     @include breakpoint(xl) {
         padding-top: 2.25rem;
+
+        a {
+            font-size: 0.75em;
+        }
     }
 }
 
@@ -180,10 +180,18 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     padding: 2rem 0 0 0;
-    border: 1px solid firebrick;
+    //border: 1px solid firebrick;
 
     a {
         font-size: 0.9em;
+    }
+
+    @include breakpoint(xl) {
+        padding-top: 2.25rem;
+
+        a {
+            font-size: 0.75em;
+        }
     }
 }
 
@@ -200,14 +208,18 @@ footer {
     }
 
     @include breakpoint(xl) {
-        padding-top: 2.25rem;
+        padding-top: 3rem;
+
+        ion-icon {
+            width: 1.5rem;
+        }
     }
-    
-    border: 1px solid green;
+
+    //border: 1px solid green;
 }
 
 .attribution { 
-    margin: 0;
+    margin: 6rem 0 0 0;
     padding: 0;
     font-size: 0.6875rem;
     text-align: center;

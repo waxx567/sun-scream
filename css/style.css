@@ -676,7 +676,6 @@ footer {
 
 .footer__logo {
   width: 55%;
-  border: 1px solid fuchsia;
 }
 @media screen and (min-width: 34rem) {
   .footer__logo {
@@ -701,7 +700,6 @@ footer {
 
 .footer-information {
   padding-top: 3rem;
-  border: 1px solid yellow;
 }
 .footer-information:not(:last-child) {
   padding: 0 2rem;
@@ -722,11 +720,6 @@ footer {
   display: flex;
   margin: 0;
   padding: 3rem 0 0 0;
-  border: 1px solid lime;
-  /*
-      @include breakpoint(xl) {
-          padding-top: 0;
-      }*/
 }
 
 .location-icon {
@@ -738,7 +731,6 @@ footer {
   margin: 0.1rem 0 0 0;
   padding: 0;
   font-size: 1.1em;
-  border: 1px solid navy;
 }
 
 .location__directions {
@@ -750,11 +742,10 @@ footer {
 .contact-details {
   margin: 0;
   padding: 0;
-  border: 1px solid deepskyblue;
 }
 @media screen and (min-width: 63rem) {
   .contact-details {
-    padding-top: 2.25rem;
+    padding-top: 2rem;
   }
 }
 
@@ -764,7 +755,7 @@ footer {
 }
 @media screen and (min-width: 63rem) {
   .footer-phone {
-    padding-top: 2.25rem;
+    padding-top: 1.2rem;
   }
 }
 
@@ -776,7 +767,6 @@ footer {
 .phone-number {
   margin: 0;
   padding: 0;
-  border: 1px solid navy;
 }
 .phone-number p {
   font-size: 0.75em;
@@ -793,7 +783,6 @@ footer {
   padding: 1rem 0 0 0;
   text-align: left;
   width: max-content;
-  border: 2px solid navy;
 }
 
 .email-icon {
@@ -804,7 +793,6 @@ footer {
 .email-address {
   margin: 0.1rem 0 0 0;
   padding: 0 0 0 1rem;
-  border: 1px solid navy;
 }
 .email-address p {
   font-size: 0.7em;
@@ -830,7 +818,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   padding: 3rem 0 0;
-  border: 1px solid blue;
 }
 .links-current a {
   font-size: 0.9em;
@@ -838,6 +825,9 @@ footer {
 @media screen and (min-width: 63rem) {
   .links-current {
     padding-top: 2.25rem;
+  }
+  .links-current a {
+    font-size: 0.75em;
   }
 }
 
@@ -849,16 +839,22 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   padding: 2rem 0 0 0;
-  border: 1px solid firebrick;
 }
 .links-info a {
   font-size: 0.9em;
+}
+@media screen and (min-width: 63rem) {
+  .links-info {
+    padding-top: 2.25rem;
+  }
+  .links-info a {
+    font-size: 0.75em;
+  }
 }
 
 .social-icons {
   padding: 6rem 0 2rem;
   text-align: center;
-  border: 1px solid green;
 }
 .social-icons > * {
   padding: 0 0.25rem;
@@ -868,12 +864,15 @@ footer {
 }
 @media screen and (min-width: 63rem) {
   .social-icons {
-    padding-top: 2.25rem;
+    padding-top: 3rem;
+  }
+  .social-icons ion-icon {
+    width: 1.5rem;
   }
 }
 
 .attribution {
-  margin: 0;
+  margin: 6rem 0 0 0;
   padding: 0;
   font-size: 0.6875rem;
   text-align: center;
