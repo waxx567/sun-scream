@@ -16,13 +16,13 @@ footer {
     width: 55%;
 
     @include breakpoint(med) {
-        width: 35%;
+        width: 30%;
     }
     @include breakpoint(lg) {
-        width:30%;
+        width:25%;
     }
     @include breakpoint(xl) {
-        width: 25%;
+        width: 20%;
     }
     @include breakpoint(xxl) {
         width: 15%;
@@ -32,18 +32,18 @@ footer {
 
 .footer-information {
 
-    @include breakpoint(lg) {
-        display: flex;
-        flex-direction: row;
-    } 
-
     &:not(:last-child) {
         padding: 0 2rem;
     }
 
-    @include breakpoint(lg) {
+    @include breakpoint(xl) {
         display: grid;
-        grid-template-columns: 2.5fr 2.5fr 1fr 1fr 1.5fr;
+        grid-template-columns: 3fr 1fr 1fr 1fr 2fr;
+        font-size: 0.65em;
+
+        &:not(:last-child) {
+            padding: 0 0 0 2rem;
+        }
     }
 }
 
