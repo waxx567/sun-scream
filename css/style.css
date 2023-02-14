@@ -557,6 +557,12 @@ h1 {
   left: 3.5rem;
   width: 5%;
 }
+@media screen and (min-width: 63rem) {
+  .testimonial__graphic {
+    top: 7.5rem;
+    left: 2rem;
+  }
+}
 
 .testimonial-box {
   margin: 1rem 0 2rem;

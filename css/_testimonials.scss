@@ -8,8 +8,14 @@
 .testimonial__graphic {
     position: absolute;
     top: 9rem;
-    left: 3.5rem; 
+    left: 3.5rem;
     width: 5%;
+
+    @include breakpoint(xl) {
+        top: 7.5rem;
+        left: 2rem;
+    }
+
     //border: 1px solid springgreen;
 }
 
@@ -48,7 +54,7 @@
     //border: 3px solid goldenrod;
 }
 
-.person-image {  
+.person-image {
 
     padding: 0;
     margin-right: 0.5rem;
@@ -57,6 +63,7 @@
         width: 1.75rem;
         //border: 1px solid mediumvioletred;
     }
+
     //border: 1px solid darkcyan;
 }
 
