@@ -675,32 +675,41 @@ footer {
 }
 
 .footer__logo {
-  width: 50%;
+  width: 40%;
+  border: 1px solid fuchsia;
 }
 @media screen and (min-width: 34rem) {
-  .footer__logo {
-    width: 40%;
-  }
-}
-@media screen and (min-width: 52rem) {
   .footer__logo {
     width: 35%;
   }
 }
-@media screen and (min-width: 63rem) {
+@media screen and (min-width: 52rem) {
   .footer__logo {
     width: 30%;
   }
 }
+@media screen and (min-width: 63rem) {
+  .footer__logo {
+    width: 25%;
+  }
+}
 @media screen and (min-width: 82rem) {
   .footer__logo {
-    width: 20%;
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 34rem) {
+  .footer-information {
+    display: flex;
+    flex-direction: row;
   }
 }
 
 .contact-details {
-  padding: 1.5rem 1.5rem 0 2rem;
+  padding: 1.5rem 1.5rem 0 0;
   font-size: 1.25em;
+  border: 1px solid khaki;
 }
 .contact-details > * {
   margin: 0;
@@ -712,6 +721,7 @@ footer {
 .footer-location {
   margin: 0;
   padding: 1.75rem 0 0 0;
+  border: 1px solid peru;
 }
 
 .location-icon {
@@ -722,6 +732,7 @@ footer {
 .location-directions {
   margin: 0.1rem 0 0 0;
   padding: 0 1.5rem 0 0;
+  border: 1px solid navy;
 }
 
 .location__directions {
@@ -741,6 +752,7 @@ footer {
 .phone-number {
   margin: 0;
   padding: 0;
+  border: 1px solid navy;
 }
 .phone-number p {
   font-size: 0.75em;
@@ -755,6 +767,7 @@ footer {
   margin: 0;
   padding: 1rem 0 0 0;
   text-align: left;
+  border: 2px solid navy;
 }
 
 .email-icon {
@@ -764,6 +777,7 @@ footer {
 .email-address {
   margin: 0.1rem 0 0 0;
   padding: 0 0 0 1rem;
+  border: 1px solid navy;
 }
 .email-address p {
   font-size: 0.7em;

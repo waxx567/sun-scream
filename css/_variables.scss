@@ -24,7 +24,6 @@ $fa-font-path: "./webfonts";
         xl: 63rem, // 1008px 
         xxl: 82rem // 1312px
     );
-
     $breakpoint-value: map-get($map: $breakpoints, $key: $size);
 
     @media screen and (min-width: $breakpoint-value) {
