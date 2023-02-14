@@ -39,7 +39,7 @@ footer {
 }
 
 .contact-details {
-    padding: 1.5rem 1.5rem 0 0;
+    padding: 1.5rem 0 0 2.5rem;
     font-size: 1.25em;
 
     > * {
@@ -131,6 +131,7 @@ footer {
 .links-current {
     display: grid;
     grid-template-columns: 1fr;
+    border: 1px solid blue;
 }
 
 .footer__link:not(first-child) {
@@ -141,6 +142,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     padding: 2rem 0 0 0;
+    border: 1px solid firebrick;
 }
 
 .social-icons {
@@ -154,6 +156,7 @@ footer {
             color: white;
         }
     }
+    border: 1px solid green;
 }
 
 .attribution { 

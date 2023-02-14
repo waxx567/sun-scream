@@ -707,7 +707,7 @@ footer {
 }
 
 .contact-details {
-  padding: 1.5rem 1.5rem 0 0;
+  padding: 1.5rem 0 0 2.5rem;
   font-size: 1.25em;
   border: 1px solid khaki;
 }
@@ -796,6 +796,7 @@ footer {
 .links-current {
   display: grid;
   grid-template-columns: 1fr;
+  border: 1px solid blue;
 }
 
 .footer__link:not(first-child) {
@@ -806,11 +807,13 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   padding: 2rem 0 0 0;
+  border: 1px solid firebrick;
 }
 
 .social-icons {
   padding: 6rem 0 2rem;
   text-align: center;
+  border: 1px solid green;
 }
 .social-icons > * {
   padding: 0 0.25rem;
