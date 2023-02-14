@@ -699,7 +699,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 34rem) {
+@media screen and (min-width: 52rem) {
   .footer-information {
     display: flex;
     flex-direction: row;
@@ -723,6 +723,16 @@ footer {
   padding: 1.75rem 0 0 0;
   border: 1px solid peru;
 }
+@media screen and (min-width: 34rem) {
+  .footer-location {
+    max-width: 75%;
+  }
+}
+@media screen and (min-width: 52rem) {
+  .footer-location {
+    max-width: 50%;
+  }
+}
 
 .location-icon {
   padding-top: 0.1rem;
@@ -742,6 +752,7 @@ footer {
 
 .footer-phone {
   padding-top: 1rem;
+  width: max-content;
 }
 
 .phone-icon {
@@ -767,11 +778,13 @@ footer {
   margin: 0;
   padding: 1rem 0 0 0;
   text-align: left;
+  width: max-content;
   border: 2px solid navy;
 }
 
 .email-icon {
   padding-top: 0.1rem;
+  padding-right: 0.5rem;
 }
 
 .email-address {
@@ -786,6 +799,7 @@ footer {
 .email__address {
   margin: 0;
   padding: 0;
+  width: max-content;
 }
 
 .footer-links {

@@ -32,7 +32,7 @@ footer {
 
 .footer-information {
 
-    @include breakpoint(med) {
+    @include breakpoint(lg) {
         display: flex;
         flex-direction: row;
     } 
@@ -55,6 +55,14 @@ footer {
     margin: 0;
     padding: 1.75rem 0 0 0;
     border: 1px solid peru;
+
+    @include breakpoint(med) {
+        max-width: 75%;
+    }
+
+    @include breakpoint(lg) {
+        max-width: 50%;
+    }
 }
 
 .location-icon {
@@ -75,6 +83,7 @@ footer {
 
 .footer-phone {
     padding-top: 1rem;
+    width: max-content;
 }
 
 .phone-icon {
@@ -101,11 +110,13 @@ footer {
     margin: 0;
     padding: 1rem 0 0 0;
     text-align: left;
+    width: max-content;
     border: 2px solid navy;
 }
 
 .email-icon {
     padding-top: 0.1rem;
+    padding-right: 0.5rem;
 }
 
 .email-address {
@@ -121,6 +132,7 @@ footer {
 .email__address {
     margin: 0;
     padding: 0;
+    width: max-content;
 }
 
 .footer-links {
