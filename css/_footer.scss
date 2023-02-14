@@ -40,6 +40,11 @@ footer {
     &:not(:last-child) {
         padding: 0 2rem;
     }
+
+    @include breakpoint(lg) {
+        display: grid;
+        grid-template-columns: 2.5fr 2.5fr 1fr 1fr 1.5fr;
+    }
 }
 
 .footer-location {
