@@ -41,7 +41,7 @@ footer {
         display: grid;
         grid-template-columns: 4fr 2fr 1fr 1fr 2fr;
         column-gap: 1rem;
-        font-size: 0.65em;
+        font-size: 0.75em;
 
         &:not(:last-child) {
             padding: 0 0 0 2rem;
@@ -55,10 +55,10 @@ footer {
     margin: 0;
     padding: 3rem 0 0 0;
     border: 1px solid lime;
-
+/*
     @include breakpoint(xl) {
         padding-top: 0;
-    }
+    }*/
 }
 
 .location-icon {
@@ -83,11 +83,19 @@ footer {
     margin: 0;
     padding: 0;
     border: 1px solid deepskyblue;
+
+    @include breakpoint(xl) {
+        padding-top: 2.25rem;
+    }
 }
 
 .footer-phone {
     display: flex;
     padding-top: 1rem;
+
+    @include breakpoint(xl) {
+        padding-top: 2.25rem;
+    }
 }
 
 .phone-icon {
@@ -143,6 +151,10 @@ footer {
 .footer-links {
     padding: 4rem 0 0 2.5rem;
     font-size: 1.45em;
+
+    @include breakpoint(xl) {
+        padding-top: 2.25rem;
+    }
 }
 
 .links-current {
@@ -153,6 +165,10 @@ footer {
 
     a {
         font-size: 0.9em;
+    }
+
+    @include breakpoint(xl) {
+        padding-top: 2.25rem;
     }
 }
 
@@ -182,6 +198,11 @@ footer {
             color: white;
         }
     }
+
+    @include breakpoint(xl) {
+        padding-top: 2.25rem;
+    }
+    
     border: 1px solid green;
 }
 
