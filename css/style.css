@@ -699,6 +699,9 @@ footer {
   }
 }
 
+.footer-information {
+  border: 1px solid yellow;
+}
 .footer-information:not(:last-child) {
   padding: 0 2rem;
 }
@@ -745,6 +748,12 @@ footer {
 .location__directions {
   margin: 0;
   padding: 0;
+}
+
+.contact-details {
+  margin: 0;
+  padding: 0;
+  border: 1px solid deepskyblue;
 }
 
 .footer-phone {
