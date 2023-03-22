@@ -1,120 +1,124 @@
 .header {
-    background-color: $introBlue;
+  background-color: $introBlue;
 }
 
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem 0;
 
-    @include breakpoint(med) {
-        padding: 1.875rem 1.875rem 0;
-    }
+  @include breakpoint(med) {
+    padding: 1.875rem 1.875rem 0;
+  }
 
-    @include breakpoint(lg) {
-        padding: 2.75rem 2.75rem 0;
-    }
+  @include breakpoint(lg) {
+    padding: 2.75rem 2.75rem 0;
+  }
 
-    @include breakpoint(xl) {
-        padding: 3.625rem 3.625rem 0;
-    }
+  @include breakpoint(xl) {
+    padding: 3.625rem 3.625rem 0;
+  }
 
-    @include breakpoint(xxl) {
-        padding: 4.5rem 4.5rem 0;
-    }
+  @include breakpoint(xxl) {
+    padding: 4.5rem 4.5rem 0;
+  }
 
-    /*
+  /*
     > * {
         border: 2px solid yellow;
     }
     */
 
-    img {
-        cursor: pointer;
-        display: block;
-        width: 40%;
-        //border: 2px solid red;
+  img {
+    cursor: pointer;
+    display: block;
+    width: 40%;
+    //border: 2px solid red;
 
-        @include breakpoint(med) {
-            width: 38%;
-        }
-
-        @include breakpoint(lg) {
-            width: 37.5%;
-        }
-
-        @include breakpoint(xl) {
-            width: 31.25%;
-        }
-        @include breakpoint(xxl) {
-            width: 25%;
-        }
+    @include breakpoint(med) {
+      width: 38%;
     }
 
-    a {
-        width: max-content;
-        font-size: 0.64em;
-        color: hsla(0, 0%, 100%, 0.85);
-        transition: color 200ms ease-in-out;
-    
-        &:hover {
-            color: $white;
-            text-decoration: underline;
-        }
-
-        @include breakpoint(med) {
-            font-size: 0.63em;
-        }
-
-        @include breakpoint(lg) {
-            font-size: 0.62em;
-        }
-
-        @include breakpoint(xl) {
-            font-size: 0.61em;
-        }
-
-        @include breakpoint(xxl) {
-            font-size: 0.6em;
-        }
-        //border: 2px solid green;
+    @include breakpoint(lg) {
+      width: 37.5%;
     }
-    //border: 2px solid blue;
+
+    @include breakpoint(xl) {
+      width: 31.25%;
+    }
+    @include breakpoint(xxl) {
+      width: 25%;
+    }
+  }
+
+  a {
+    width: max-content;
+    font-size: 0.64em;
+    color: hsla(0, 0%, 100%, 0.85);
+    transition: color 200ms ease-in-out;
+
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+
+    @include breakpoint(med) {
+      font-size: 0.63em;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 0.62em;
+    }
+
+    @include breakpoint(xl) {
+      font-size: 0.61em;
+    }
+
+    @include breakpoint(xxl) {
+      font-size: 0.6em;
+    }
+    //border: 2px solid green;
+  }
+  //border: 2px solid blue;
 }
 
 .header-logo,
 .header-links {
-    margin: 0;
-    padding: 0;
-    width: max-content;
-    height: max-content;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  height: max-content;
 }
 
-.header-logo{
-    width: 50%;
-    //border: 1px solid red;
+.header-logo {
+  width: 50%;
+  //border: 1px solid red;
 }
 
 .header-links {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 2rem;
-    align-items: center;
-    margin-top: 0.25rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
+  align-items: center;
+  margin-top: 0.25rem;
 
-    @include breakpoint(med) {
-        gap: 2.2rem;
-    }
+  @include breakpoint(med) {
+    gap: 2.2rem;
+  }
 
-    @include breakpoint(lg) {
-        gap: 2.25rem;
-    }
+  @include breakpoint(lg) {
+    gap: 2.25rem;
+  }
 
-    @include breakpoint(xl) {
-        gap: 2.5rem;
-    }
+  @include breakpoint(xl) {
+    gap: 2.5rem;
+  }
 
-    @include breakpoint(xxl) {
-        gap: 2.75rem;
-    }
+  @include breakpoint(xxl) {
+    gap: 2.75rem;
+  }
+}
+
+.header-links:hover {
+  font-weight: 700;
 }
