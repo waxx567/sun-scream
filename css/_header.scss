@@ -56,6 +56,7 @@
     font-size: 0.64em;
     color: hsla(0, 0%, 100%, 0.85);
     transition: color 200ms ease-in-out;
+    transition: : text-decoration 200ms ease-in-out;
 
     &:hover {
       color: $white;
@@ -117,8 +118,4 @@
   @include breakpoint(xxl) {
     gap: 2.75rem;
   }
-}
-
-.header-links:hover {
-  font-weight: 700;
 }
