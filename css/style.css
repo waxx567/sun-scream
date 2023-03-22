@@ -77,10 +77,10 @@ button:hover {
   justify-content: space-between;
   padding: 1.5rem 1rem 0;
   /*
-  > * {
-      border: 2px solid yellow;
-  }
-  */
+    > * {
+        border: 2px solid yellow;
+    }
+    */
 }
 @media screen and (min-width: 34rem) {
   .header-container {
@@ -196,6 +196,10 @@ button:hover {
   .header-links {
     gap: 2.75rem;
   }
+}
+
+.header-links:hover {
+  font-weight: 700;
 }
 
 .intro-container {
