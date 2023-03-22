@@ -87,3 +87,9 @@
   }
   border: 1px solid blue;
 }
+
+@include breakpoint(lg) {
+  .features__text {
+    padding: 0;
+  }
+}
