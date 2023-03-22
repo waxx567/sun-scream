@@ -368,7 +368,7 @@ h1 {
   flex-direction: column;
   width: 80%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border: 2px solid fuchsia;
 }
 .feature:not(:first-child) {
