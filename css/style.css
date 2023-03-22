@@ -3,25 +3,25 @@ html {
 }
 
 *, *:after, *:before {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(218deg, 28%, 13%);
+  background-color: hsl(218, 28%, 13%);
   font-family: "Open Sans", sans-serif;
   font-size: calc(1rem + 0.75vw);
   line-height: 1.5;
 }
 
 section {
-  background-color: hsl(218deg, 28%, 13%);
+  background-color: hsl(218, 28%, 13%);
 }
 
 a, p {
-  color: hsla(0deg, 0%, 95%, 0.9);
+  color: hsla(0, 0%, 95%, 0.9);
   text-decoration: none;
 }
 
@@ -56,20 +56,20 @@ h3 {
 button {
   cursor: pointer;
   border: none;
-  background: linear-gradient(to right, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
   font-size: 0.8em;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   padding: 1rem 5.75rem;
   border-radius: 1.875rem;
-  color: hsl(0deg, 0%, 95%);
+  color: hsl(0, 0%, 95%);
 }
 button:hover {
-  background: linear-gradient(to left, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
+  background: linear-gradient(to left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
 }
 
 .header {
-  background-color: hsl(217deg, 28%, 15%);
+  background-color: hsl(217, 28%, 15%);
 }
 
 .header-container {
@@ -130,11 +130,11 @@ button:hover {
 .header-container a {
   width: max-content;
   font-size: 0.64em;
-  color: hsla(0deg, 0%, 100%, 0.85);
+  color: hsla(0, 0%, 100%, 0.85);
   transition: color 200ms ease-in-out;
 }
 .header-container a:hover {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   text-decoration: underline;
 }
 @media screen and (min-width: 34rem) {
@@ -223,7 +223,7 @@ button:hover {
   width: 100%;
   height: 40vw;
   bottom: 3rem;
-  background-color: hsl(217deg, 28%, 15%);
+  background-color: hsl(217, 28%, 15%);
   background-image: url("/images/bg-curvy-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ button:hover {
 
 .intro-picture {
   width: 100%;
-  background-color: hsl(217deg, 28%, 15%);
+  background-color: hsl(217, 28%, 15%);
 }
 
 .intro__pic {
@@ -347,6 +347,7 @@ h1 {
   bottom: 5rem;
   text-align: center;
   align-items: center;
+  border: 1px solid yellow;
 }
 .features-container > * {
   margin-right: auto;
@@ -367,7 +368,8 @@ h1 {
   flex-direction: column;
   width: 80%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  border: 2px solid fuchsia;
 }
 .feature:not(:first-child) {
   padding-top: 5rem;
@@ -399,11 +401,15 @@ h1 {
   width: max-content;
   margin-right: auto;
   margin-left: auto;
+  border: 1px solid firebrick;
 }
 .features-icon img {
   width: 85%;
 }
 
+.features__heading {
+  border: 1px solid hotpink;
+}
 .features__heading h3 {
   margin: 0;
   margin-right: auto;
@@ -414,6 +420,7 @@ h1 {
 .features__text {
   font-size: 1em;
   padding: 0 1.75rem;
+  border: 1px solid blue;
 }
 .features__text p {
   margin: 0;
@@ -421,6 +428,7 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   padding: 0.5rem 0 0;
+  border: 1px solid gold;
 }
 
 .showcase-container {
@@ -509,7 +517,7 @@ h1 {
   display: flex;
   flex-direction: row;
   padding-bottom: 0.1rem;
-  border-bottom: 2px solid hsl(176deg, 68%, 64%);
+  border-bottom: 2px solid hsl(176, 68%, 64%);
   /*
           @include breakpoint(xl) {
               padding-bottom: 0.4rem;
@@ -530,16 +538,16 @@ h1 {
   }
 }
 .showcase__link a:hover {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 .showcase__link p {
   margin: 0;
   padding: 0 0.5rem 0 0;
   width: max-content;
-  color: hsl(176deg, 68%, 64%);
+  color: hsl(176, 68%, 64%);
 }
 .showcase__link p:hover {
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 .showcase__link img {
   margin: 0;
@@ -579,7 +587,7 @@ h1 {
   position: relative;
   z-index: 2;
   margin-bottom: 1.5rem;
-  background-color: hsl(219deg, 30%, 18%);
+  background-color: hsl(219, 30%, 18%);
   padding: 1rem 1.5rem;
   border-radius: 0.325rem;
 }
@@ -637,8 +645,8 @@ h1 {
   bottom: -7rem;
   padding: 1.5rem 0.5rem 2rem;
   border-radius: 0.5rem;
-  background-color: hsl(217deg, 28%, 15%);
-  box-shadow: 0.4rem 0.45rem hsla(0deg, 0%, 0%, 0.075);
+  background-color: hsl(217, 28%, 15%);
+  box-shadow: 0.4rem 0.45rem hsla(0, 0%, 0%, 0.075);
   text-align: center;
   line-height: 1.4;
 }
@@ -672,7 +680,7 @@ footer {
   z-index: 1;
   margin: 0;
   padding: 18rem 0 0 0;
-  background-color: hsl(216deg, 53%, 9%);
+  background-color: hsl(216, 53%, 9%);
 }
 
 .footer-logo {
@@ -887,7 +895,7 @@ footer {
 }
 .attribution a {
   font-size: 1em;
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
 .attribution a:hover {
