@@ -35,18 +35,22 @@
 }
 
 .features-icon {
-  height: 10rem;
+  height: 9rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .features-icon img {
-  width: 80%;
+  width: 90%;
 }
 
 .features__heading h3,
 .features__text p {
   margin: 0;
   padding: 0;
+}
+
+.features__text {
+  padding: 0.5rem 2rem 0;
 }
