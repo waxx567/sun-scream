@@ -307,10 +307,7 @@ h1 {
 }
 
 .intro__heading,
-.intro__text,
 .intro__button {
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
 }
 
@@ -326,6 +323,8 @@ h1 {
 }
 
 .intro__text {
+  margin-right: auto;
+  margin-left: auto;
   max-width: 100%;
 }
 
