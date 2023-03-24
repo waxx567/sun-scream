@@ -8,7 +8,7 @@
 @include breakpoint(lg) {
   .features-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr 1fr);
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -18,8 +18,7 @@
 
 @include breakpoint(lg) {
   .feature {
-    width: 14rem;
+    width: 50%;
     height: 14rem;
-    justify-content: space-between;
   }
 }
