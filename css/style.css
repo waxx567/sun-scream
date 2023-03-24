@@ -349,6 +349,12 @@ h1 {
   border: 1px solid yellow;
 }
 
+@media screen and (min-width: 52rem) {
+  .features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .feature {
   padding-bottom: 4rem;
 }
