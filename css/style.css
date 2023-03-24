@@ -350,7 +350,7 @@ h1 {
 }
 
 .features-container > * {
-  height: 20rem;
+  height: max-content;
 }
 
 @media screen and (min-width: 52rem) {
@@ -379,10 +379,16 @@ h1 {
 }
 
 .features-icon {
-  height: 6rem;
+  height: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.features__heading h3,
+.features__text p {
+  margin: 0;
+  padding: 0;
 }
 
 .showcase-container {
