@@ -330,7 +330,6 @@ h1 {
 .features-container {
   text-align: center;
   align-items: center;
-  border: 1px solid yellow;
 }
 
 @media screen and (min-width: 34rem) {
@@ -366,7 +365,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid fuchsia;
 }
 
 @media screen and (min-width: 34rem) {
@@ -379,10 +377,11 @@ h1 {
     padding-bottom: 0;
   }
 }
+/*
 .feature > * {
-  border: 1px solid green;
+  //border: 1px solid green;
 }
-
+*/
 .features-icon {
   height: 4.5rem;
   display: flex;
@@ -430,7 +429,7 @@ h1 {
 }
 @media screen and (min-width: 52rem) {
   .features__text {
-    font-size: 0.9em;
+    font-size: 0.875em;
     padding: 0.5rem 0 0;
   }
 }
@@ -441,7 +440,7 @@ h1 {
 }
 @media screen and (min-width: 82rem) {
   .features__text {
-    max-width: 35rem;
+    max-width: 32rem;
   }
 }
 .showcase-container {
