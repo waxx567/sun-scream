@@ -277,19 +277,6 @@ button:hover {
   margin-left: auto;
   width: 95%;
   bottom: 9rem;
-  /*
-    @include breakpoint(med) {
-        bottom: 14rem;
-    }
-
-    @include breakpoint(lg) {
-        bottom: 20rem;
-    }
-
-    @include breakpoint(xl) {
-        bottom: 19rem;
-    }
-    */
 }
 
 h1 {
