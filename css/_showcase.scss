@@ -1,6 +1,6 @@
 .showcase-container {
   padding: 1rem;
-  padding-top: 6rem;
+  padding-top: 10rem;
   display: flex;
   flex-direction: column;
 
@@ -30,7 +30,7 @@
 }
 
 .showcase__image {
-  width: 95%;
+  width: 93%;
 
   @include breakpoint(lg) {
     width: 90%;
@@ -62,11 +62,10 @@
 
 .showcase__heading {
   h3 {
+    margin: 0;
     margin-top: 2rem;
+    padding: 0 0 0 2rem;
     //border: 1px solid purple;
-
-    @include breakpoint(med) {
-    }
 
     @include breakpoint(lg) {
       margin: 0;
@@ -77,6 +76,8 @@
 
 .showcase__text {
   p {
+    padding: 0 0 0 2rem;
+    font-size: 0.75em;
     line-height: 1.5;
 
     @include breakpoint(lg) {

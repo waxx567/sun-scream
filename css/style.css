@@ -338,7 +338,7 @@ h1 {
 }
 
 .features-container > *:not(:last-child) {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 @media screen and (min-width: 52rem) {
@@ -352,7 +352,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   border: 2px solid fuchsia;
 }
 
@@ -366,7 +366,7 @@ h1 {
 }
 
 .features-icon {
-  height: 4rem;
+  height: 4.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -386,6 +386,10 @@ h1 {
     width: 100%;
   }
 }
+.features__heading {
+  margin-top: 2rem;
+}
+
 .features__heading h3,
 .features__text p {
   margin: 0;
@@ -393,7 +397,7 @@ h1 {
 }
 
 .features__text {
-  padding: 0 2rem;
+  padding: 1rem 1rem 0;
 }
 
 @media screen and (min-width: 34rem) {
@@ -418,7 +422,7 @@ h1 {
 }
 .showcase-container {
   padding: 1rem;
-  padding-top: 6rem;
+  padding-top: 10rem;
   display: flex;
   flex-direction: column;
 }
@@ -449,7 +453,7 @@ h1 {
 }
 
 .showcase__image {
-  width: 95%;
+  width: 93%;
 }
 @media screen and (min-width: 52rem) {
   .showcase__image {
@@ -475,7 +479,9 @@ h1 {
 }
 
 .showcase__heading h3 {
+  margin: 0;
   margin-top: 2rem;
+  padding: 0 0 0 2rem;
 }
 @media screen and (min-width: 52rem) {
   .showcase__heading h3 {
@@ -485,6 +491,8 @@ h1 {
 }
 
 .showcase__text p {
+  padding: 0 0 0 2rem;
+  font-size: 0.75em;
   line-height: 1.5;
 }
 @media screen and (min-width: 52rem) {
