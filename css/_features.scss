@@ -63,5 +63,24 @@
 }
 
 .features__text {
+  max-width: 25rem;
   padding: 0.5rem 2rem 0;
+}
+
+@include breakpoint(lg) {
+  .features__text {
+    padding: 0.5rem 0 0;
+  }
+}
+
+@include breakpoint(xl) {
+  .features__text {
+    max-width: 28rem;
+  }
+}
+
+@include breakpoint(xxl) {
+  .features__text {
+    max-width: 35rem;
+  }
 }
