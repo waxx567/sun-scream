@@ -107,14 +107,15 @@
     @include breakpoint(lg) {
       padding-bottom: 0.3rem;
     }
-    /*
+
     @include breakpoint(xl) {
-        padding-bottom: 0.4rem;
+      padding-bottom: 0.4rem;
     }
 
     @include breakpoint(xxl) {
-        padding-bottom: 0.5rem;
-    }*/
+      padding-bottom: 0.5rem;
+    }
+
     p {
       // Text
       margin: 0;

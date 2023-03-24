@@ -536,14 +536,6 @@ h1 {
   flex-direction: row;
   padding-bottom: 0.1rem;
   border-bottom: 2px solid hsl(176, 68%, 64%);
-  /*
-  @include breakpoint(xl) {
-      padding-bottom: 0.4rem;
-  }
-
-  @include breakpoint(xxl) {
-      padding-bottom: 0.5rem;
-  }*/
 }
 @media screen and (min-width: 34rem) {
   .showcase__link a {
@@ -553,6 +545,16 @@ h1 {
 @media screen and (min-width: 52rem) {
   .showcase__link a {
     padding-bottom: 0.3rem;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .showcase__link a {
+    padding-bottom: 0.4rem;
+  }
+}
+@media screen and (min-width: 82rem) {
+  .showcase__link a {
+    padding-bottom: 0.5rem;
   }
 }
 .showcase__link a p {
