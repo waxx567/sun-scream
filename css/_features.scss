@@ -1,7 +1,7 @@
 .features-container {
   text-align: center;
   align-items: center;
-  border: 1px solid yellow;
+  //border: 1px solid yellow;
 }
 
 .features-container > * {
@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid fuchsia;
+  //border: 2px solid fuchsia;
 }
 
 @include breakpoint(lg) {
@@ -30,7 +30,7 @@
 }
 
 .feature > * {
-  border: 1px solid green;
+  //border: 1px solid green;
 }
 
 .features-icon {
@@ -63,7 +63,7 @@
 }
 
 .features__text {
-  max-width: 25rem;
+  max-width: 30rem;
   padding: 0.5rem 2rem 0;
 }
 

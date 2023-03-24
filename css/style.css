@@ -330,7 +330,6 @@ h1 {
 .features-container {
   text-align: center;
   align-items: center;
-  border: 1px solid yellow;
 }
 
 .features-container > * {
@@ -348,7 +347,6 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid fuchsia;
 }
 
 @media screen and (min-width: 52rem) {
@@ -356,10 +354,6 @@ h1 {
     padding-bottom: 0;
   }
 }
-.feature > * {
-  border: 1px solid green;
-}
-
 .features-icon {
   height: 9rem;
   display: flex;
@@ -388,7 +382,7 @@ h1 {
 }
 
 .features__text {
-  max-width: 25rem;
+  max-width: 30rem;
   padding: 0.5rem 2rem 0;
 }
 
@@ -416,13 +410,13 @@ h1 {
 @media screen and (min-width: 34rem) {
   .showcase-container {
     padding: 3rem;
-    padding-top: 10rem;
+    padding-top: 11rem;
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 52rem) {
   .showcase-container {
-    padding: 13rem 0;
+    padding: 16rem 0;
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
   }

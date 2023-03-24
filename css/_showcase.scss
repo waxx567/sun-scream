@@ -6,12 +6,12 @@
 
   @include breakpoint(med) {
     padding: 3rem;
-    padding-top: 10rem;
+    padding-top: 11rem;
     justify-content: space-between;
   }
 
   @include breakpoint(lg) {
-    padding: 13rem 0;
+    padding: 16rem 0;
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
   }
