@@ -355,6 +355,7 @@ h1 {
 
 .showcase-container {
   padding: 1rem;
+  padding-top: 4rrem;
   display: flex;
   flex-direction: column;
 }
@@ -441,13 +442,13 @@ h1 {
   padding-bottom: 0.1rem;
   border-bottom: 2px solid hsl(176, 68%, 64%);
   /*
-          @include breakpoint(xl) {
-              padding-bottom: 0.4rem;
-          }
+      @include breakpoint(xl) {
+          padding-bottom: 0.4rem;
+      }
 
-          @include breakpoint(xxl) {
-              padding-bottom: 0.5rem;
-          }*/
+      @include breakpoint(xxl) {
+          padding-bottom: 0.5rem;
+      }*/
 }
 @media screen and (min-width: 34rem) {
   .showcase__link a {
