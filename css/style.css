@@ -346,7 +346,6 @@ h1 {
   padding-top: 3rem;
   text-align: center;
   align-items: center;
-  border: 1px solid yellow;
 }
 
 .features-container > * {
@@ -362,30 +361,22 @@ h1 {
 }
 .feature {
   padding-bottom: 4rem;
-  border: 2px solid fuchsia;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 52rem) {
   .feature {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding-bottom: 0;
   }
 }
-.feature > * {
-  border: 1px solid green;
-}
-
 .features-icon {
-  width: min-content;
   height: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.features__icon {
-  max-width: revert;
 }
 
 .showcase-container {
