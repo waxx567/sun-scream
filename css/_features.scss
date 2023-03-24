@@ -63,8 +63,13 @@
 }
 
 .features__text {
-  max-width: 30rem;
   padding: 0.5rem 2rem 0;
+}
+
+@include breakpoint(med) {
+  .features__text {
+    max-width: 28rem;
+  }
 }
 
 @include breakpoint(lg) {
