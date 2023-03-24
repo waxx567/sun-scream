@@ -3,30 +3,37 @@ $introBlue: hsl(217, 28%, 15%); // intro and email sign up background
 $mainBlue: hsl(218, 28%, 13%); // main background
 $footerBlue: hsl(216, 53%, 9%); // footer background
 $testimBlue: hsl(219, 30%, 18%); // testimonials background
-$greenCyan: hsl(176, 68%, 64%); // inside call-to-action gradient
-$lightBlue: hsl(198, 60%, 50%); // inside call-to-action gradient
+$greenCyan: hsl(176, 68%, 64%); // call-to-action gradient
+$lightBlue: hsl(198, 60%, 50%); // call-to-action gradient
 $lightRed: hsl(0, 100%, 63%); // error
 $paleRed: hsl(340, 57%, 64%); // hover colour
 $white: hsl(0, 0%, 100%);
 
-// Fonts 
-$font-title: 'Raleway', sans-serif;
-$font-body: 'Open Sans', sans-serif;
+// Fonts
+$font-title: "Raleway", sans-serif;
+$font-body: "Open Sans", sans-serif;
 $fa-font-path: "./webfonts";
 
-// Breakpoints 
+// Breakpoints
 @mixin breakpoint($size) {
-    
-    $breakpoints: ( // map
-        sm: 22rem, // 352px
-        med: 34rem, // 544px
-        lg: 52rem, // 832px
-        xl: 63rem, // 1008px 
-        xxl: 82rem // 1312px
-    );
-    $breakpoint-value: map-get($map: $breakpoints, $key: $size);
+  $breakpoints: (
+    // map
+    sm: 22rem,
+    // 352px
+    med: 34rem,
+    // 544px
+    lg: 52rem,
+    // 832px
+    xl: 63rem,
+    // 1008px
+    xxl: 82rem // 1312px
+  );
+  $breakpoint-value: map-get(
+    $map: $breakpoints,
+    $key: $size,
+  );
 
-    @media screen and (min-width: $breakpoint-value) {
-        @content;        
-    }
+  @media screen and (min-width: $breakpoint-value) {
+    @content;
+  }
 }
