@@ -357,14 +357,16 @@ h1 {
 }
 .feature {
   padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid fuchsia;
 }
 
-@media screen and (min-width: 52rem) {
-  .feature {
-    width: 50%;
-    height: 14rem;
-  }
+.feature > * {
+  border: 1px solid green;
 }
+
 .showcase-container {
   padding: 1rem;
   padding-top: 6rem;
