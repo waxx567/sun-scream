@@ -572,7 +572,7 @@ h1 {
   padding: 0;
 }
 .showcase__link a img:hover {
-  filter: invert(0%) sepia(3%) saturate(14%) hue-rotate(90deg) brightness(99%) contrast(104%);
+  filter: invert(0%) sepia(93%) saturate(26%) hue-rotate(283deg) brightness(103%) contrast(103%);
 }
 
 .testimonials-container {
