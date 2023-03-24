@@ -343,7 +343,6 @@ h1 {
 }
 
 .features-container {
-  position: relative;
   z-index: 3;
   bottom: 5rem;
   text-align: center;
