@@ -4,18 +4,25 @@
   border: 1px solid yellow;
 }
 
+@include breakpoint(med) {
+  .features-container {
+    padding-top: 5rem;
+  }
+}
+
+@include breakpoint(lg) {
+  .features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .features-container > * {
   height: max-content;
 }
 
 .features-container > *:not(:last-child) {
   margin-bottom: 5rem;
-}
-@include breakpoint(lg) {
-  .features-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 .feature {
