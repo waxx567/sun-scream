@@ -21,7 +21,7 @@
   }
 
   @include breakpoint(xl) {
-    top: 7.5rem;
+    top: 8rem;
     left: 2rem;
   }
 
@@ -57,26 +57,23 @@
 }
 
 .testimonial-person {
-  display: grid;
-  grid-template-columns: 1fr 7fr;
+  display: flex;
+  width: max-content;
   height: max-content;
-
-  @include breakpoint(med) {
-    grid-template-columns: 1fr 9fr;
-  }
   //border: 3px solid goldenrod;
 }
 
 .person-image {
   margin-top: auto;
-  margin-right: auto;
+  margin-bottom: auto;
+  margin-right: 0.5rem;
 
   img {
     width: 1.75rem;
     //border: 1px solid mediumvioletred;
   }
 
-  border: 1px solid darkcyan;
+  //border: 1px solid darkcyan;
 }
 
 .person__image {
@@ -87,7 +84,7 @@
 }
 
 .person__name {
-  margin: 0.1rem 0;
+  margin: 0;
   padding: 0;
   width: max-content;
   font-size: 0.5em;
