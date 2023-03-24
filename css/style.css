@@ -66,7 +66,7 @@ button {
   font-size: 0.8em;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  padding: 1rem 5rem;
+  padding: 1.1rem 5rem;
   border-radius: 1.875rem;
   color: hsl(0, 0%, 95%);
 }
@@ -295,7 +295,7 @@ h1 {
 }
 .intro-contents p {
   padding: 0;
-  width: 75%;
+  width: 80%;
 }
 @media screen and (min-width: 34rem) {
   .intro-contents p {
@@ -311,9 +311,6 @@ h1 {
   text-align: center;
 }
 
-.intro__heading {
-  line-height: 1.6;
-}
 @media screen and (min-width: 34rem) {
   .intro__heading {
     max-width: 90%;
@@ -323,7 +320,6 @@ h1 {
 }
 
 .intro__text {
-  line-height: 1.6;
   max-width: 100%;
 }
 
@@ -338,6 +334,9 @@ h1 {
 
 .features-container > * {
   height: max-content;
+}
+
+.features-container > *:not(:first-child) {
   padding-top: 4rem;
 }
 

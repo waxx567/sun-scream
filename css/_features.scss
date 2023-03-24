@@ -6,6 +6,9 @@
 
 .features-container > * {
   height: max-content;
+}
+
+.features-container > *:not(:first-child) {
   padding-top: 4rem;
 }
 
