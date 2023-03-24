@@ -71,9 +71,6 @@
 
 .intro-content {
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  width: 95%;
   bottom: 9rem;
 }
 
@@ -86,7 +83,6 @@ h1 {
 .intro-contents {
   position: relative;
   z-index: 2;
-  //background-color: $mainBlue
   bottom: 0rem;
   //border: 2px solid firebrick;
 
@@ -101,13 +97,15 @@ h1 {
 }
 
 .intro__heading,
+.intro__text,
 .intro__button {
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 
 .intro__heading {
-  max-width: 100%;
-
+  line-height: 1.6;
   @include breakpoint(med) {
     max-width: 90%;
     padding-right: 3rem;
@@ -117,8 +115,7 @@ h1 {
 }
 
 .intro__text {
-  margin-right: auto;
-  margin-left: auto;
+  line-height: 1.6;
   max-width: 100%;
 }
 

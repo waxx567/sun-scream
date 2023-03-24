@@ -15,7 +15,7 @@ body {
   background-color: hsl(218, 28%, 13%);
   font-family: "Open Sans", sans-serif;
   font-size: calc(1rem + 0.75vw);
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 section {
@@ -36,7 +36,7 @@ a {
 p {
   padding: 0 2rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 0.75em;
+  font-size: 0.8em;
 }
 
 h1,
@@ -48,7 +48,7 @@ h4 {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.35em;
 }
 
 h2 {
@@ -279,9 +279,6 @@ button:hover {
 
 .intro-content {
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
-  width: 95%;
   bottom: 9rem;
 }
 
@@ -307,12 +304,15 @@ h1 {
 }
 
 .intro__heading,
+.intro__text,
 .intro__button {
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 
 .intro__heading {
-  max-width: 100%;
+  line-height: 1.6;
 }
 @media screen and (min-width: 34rem) {
   .intro__heading {
@@ -323,8 +323,7 @@ h1 {
 }
 
 .intro__text {
-  margin-right: auto;
-  margin-left: auto;
+  line-height: 1.6;
   max-width: 100%;
 }
 
