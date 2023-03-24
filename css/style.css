@@ -358,18 +358,32 @@ h1 {
 }
 .feature {
   padding-bottom: 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
   border: 2px solid fuchsia;
 }
 
+@media screen and (min-width: 52rem) {
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+  }
+}
 .feature > * {
   border: 1px solid green;
 }
 
+.features-icon {
+  width: min-content;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .features__icon {
   max-width: revert;
+  display: block;
 }
 
 .showcase-container {
