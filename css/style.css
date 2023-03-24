@@ -277,21 +277,19 @@ button:hover {
   margin-left: auto;
   width: 95%;
   bottom: 9rem;
-}
-@media screen and (min-width: 34rem) {
-  .intro-content {
-    bottom: 14rem;
-  }
-}
-@media screen and (min-width: 52rem) {
-  .intro-content {
-    bottom: 20rem;
-  }
-}
-@media screen and (min-width: 63rem) {
-  .intro-content {
-    bottom: 19rem;
-  }
+  /*
+    @include breakpoint(med) {
+        bottom: 14rem;
+    }
+
+    @include breakpoint(lg) {
+        bottom: 20rem;
+    }
+
+    @include breakpoint(xl) {
+        bottom: 19rem;
+    }
+    */
 }
 
 h1 {
@@ -350,12 +348,11 @@ h1 {
 
 .features-container > * {
   height: max-content;
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 @media screen and (min-width: 52rem) {
   .features-container {
-    padding-top: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -383,10 +380,20 @@ h1 {
   justify-content: center;
 }
 
+@media screen and (min-width: 52rem) {
+  .features-icon {
+    height: 8rem;
+  }
+}
 .features-icon img {
   width: 90%;
 }
 
+@media screen and (min-width: 52rem) {
+  .features-icon img {
+    width: 100%;
+  }
+}
 .features__heading h3,
 .features__text p {
   margin: 0;
