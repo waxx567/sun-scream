@@ -537,13 +537,13 @@ h1 {
   padding-bottom: 0.1rem;
   border-bottom: 2px solid hsl(176, 68%, 64%);
   /*
-      @include breakpoint(xl) {
-          padding-bottom: 0.4rem;
-      }
+  @include breakpoint(xl) {
+      padding-bottom: 0.4rem;
+  }
 
-      @include breakpoint(xxl) {
-          padding-bottom: 0.5rem;
-      }*/
+  @include breakpoint(xxl) {
+      padding-bottom: 0.5rem;
+  }*/
 }
 @media screen and (min-width: 34rem) {
   .showcase__link a {
@@ -555,21 +555,21 @@ h1 {
     padding-bottom: 0.3rem;
   }
 }
-.showcase__link a:hover {
-  color: hsl(0, 0%, 100%);
-}
-.showcase__link p {
+.showcase__link a p {
   margin: 0;
   padding: 0 0.5rem 0 0;
   width: max-content;
   color: hsl(176, 68%, 64%);
 }
-.showcase__link p:hover {
+.showcase__link a p:hover {
   color: hsl(0, 0%, 100%);
 }
-.showcase__link img {
+.showcase__link a img {
   margin: 0;
   padding: 0;
+}
+.showcase__link a img:hover {
+  color: hsl(0, 0%, 100%);
 }
 
 .testimonials-container {

@@ -108,38 +108,37 @@
       padding-bottom: 0.3rem;
     }
     /*
-        @include breakpoint(xl) {
-            padding-bottom: 0.4rem;
-        }
-
-        @include breakpoint(xxl) {
-            padding-bottom: 0.5rem;
-        }*/
-    //border: 1px solid gold;
-
-    &:hover {
-      color: $white;
+    @include breakpoint(xl) {
+        padding-bottom: 0.4rem;
     }
-  }
 
-  p {
-    // Text
-    margin: 0;
-    padding: 0 0.5rem 0 0;
-    width: max-content;
-    color: $greenCyan;
-    //border: 1px solid violet;
+    @include breakpoint(xxl) {
+        padding-bottom: 0.5rem;
+    }*/
+    p {
+      // Text
+      margin: 0;
+      padding: 0 0.5rem 0 0;
+      width: max-content;
+      color: $greenCyan;
+      //border: 1px solid violet;
 
-    &:hover {
-      color: $white;
+      &:hover {
+        color: $white;
+      }
     }
-  }
 
-  img {
-    // Icon
-    margin: 0;
-    padding: 0;
-    //border: 1px solid blueviolet;
+    img {
+      // Icon
+      margin: 0;
+      padding: 0;
+
+      &:hover {
+        color: $white;
+      }
+      //border: 1px solid blueviolet;
+    }
+    //border: 1px solid lawngreen;
   }
-  //border: 1px solid lawngreen;
+  //border: 1px solid gold;
 }
