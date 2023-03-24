@@ -4,9 +4,6 @@
   bottom: 5rem;
   text-align: center;
   align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   //border: 1px solid yellow;
 
   > * {
@@ -14,13 +11,13 @@
     margin-left: auto;
   }
 
-  @include breakpoint(lg) {
+  /*@include breakpoint(lg) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 5rem;
     column-gap: 0;
     align-items: stretch;
-  }
+  }*/
 }
 
 .feature {
@@ -31,7 +28,7 @@
   align-items: center;
   justify-content: space-between;
 
-  &:not(:first-child) {
+  /*&:not(:first-child) {
     padding-top: 5rem;
 
     @include breakpoint(lg) {
@@ -39,7 +36,7 @@
       padding: 0;
     }
   }
-
+   
   @include breakpoint(med) {
     max-width: 80%;
   }
@@ -50,7 +47,7 @@
     &:not(:last-child) {
       padding-bottom: 0;
     }
-  }
+  }*/
   //border: 2px solid fuchsia;
 }
 
@@ -99,9 +96,9 @@
   }
   //border: 1px solid blue;
 }
-
+/*
 @include breakpoint(lg) {
   .features__text {
     padding: 0;
   }
-}
+}*/
