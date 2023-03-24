@@ -16,7 +16,7 @@
 
   @include breakpoint(lg) {
     display: grid;
-    grid-template-columns: repeat(1fr 1fr);
+    grid-template-columns: 1fr 1fr;
     row-gap: 5rem;
     column-gap: 0;
     align-items: stretch;
