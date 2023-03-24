@@ -633,13 +633,14 @@ h1 {
 
 .testimonial-person {
   display: grid;
-  grid-template-columns: 1fr 9fr;
+  grid-template-columns: 1fr 7fr;
   height: max-content;
 }
 
 .person-image {
-  margin-top: 0.25rem;
-  margin-right: 0.75rem;
+  margin-top: auto;
+  margin-right: auto;
+  border: 1px solid darkcyan;
 }
 .person-image img {
   width: 1.75rem;
