@@ -1,92 +1,100 @@
 .testimonials-container {
-    position: relative;
-    padding: 9rem 3rem 0;
-    //border: 1px solid blue;
+  position: relative;
+  padding: 9rem 3rem 0;
+  //border: 1px solid blue;
 }
 
-
 .testimonial__graphic {
-    position: absolute;
-    top: 9.25rem;
-    left: 2.75rem;
-    width: 5%;
+  position: absolute;
+  top: 9.25rem;
+  left: 2.75rem;
+  width: 5%;
 
-    @include breakpoint(xl) {
-        top: 7.5rem;
-        left: 2rem;
-    }
+  @include breakpoint(med) {
+    top: 8.75rem;
+    left: 2.6rem;
+  }
 
-    //border: 1px solid springgreen;
+  @include breakpoint(lg) {
+    top: 8.3rem;
+    left: 2.25rem;
+  }
+
+  @include breakpoint(xl) {
+    top: 7.5rem;
+    left: 2rem;
+  }
+
+  //border: 1px solid springgreen;
 }
 
 .testimonial-box {
-    margin: 1rem 0 2rem;
-    //border: 1px solid lightseagreen;
+  margin: 1rem 0 2rem;
+  //border: 1px solid lightseagreen;
 
-    @include breakpoint(xl) {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-    }
+  @include breakpoint(xl) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
 }
 
 .testimonial {
-    position: relative;
-    z-index: 2;
-    margin-bottom: 1.5rem;
-    background-color: $testimBlue;
-    padding: 1rem 1.5rem;
-    border-radius: 0.325rem;
-    //border: 1px solid darkred;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 1.5rem;
+  background-color: $testimBlue;
+  padding: 1rem 1.5rem;
+  border-radius: 0.325rem;
+  //border: 1px solid darkred;
 }
 
 .testimonial__text {
-    padding: 0;
-    font-size: 0.55em;
-    line-height: 1.75;
-    //border: 1px solid saddlebrown;
+  padding: 0;
+  font-size: 0.55em;
+  line-height: 1.75;
+  //border: 1px solid saddlebrown;
 }
 
 .testimonial-person {
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    height: max-content;
-    //border: 3px solid goldenrod;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  height: max-content;
+  //border: 3px solid goldenrod;
 }
 
 .person-image {
+  margin-top: 0.25rem;
+  margin-right: 0.75rem;
 
-    padding: 0;
-    margin-right: 0.5rem;
+  img {
+    width: 1.75rem;
+    //border: 1px solid mediumvioletred;
+  }
 
-    img {
-        width: 1.75rem;
-        //border: 1px solid mediumvioletred;
-    }
-
-    //border: 1px solid darkcyan;
+  //border: 1px solid darkcyan;
 }
 
 .person__image {
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .person__name {
-    margin: 0.1rem 0;
-    padding: 0;
-    width: max-content;
-    font-size: 0.5em;
-    font-weight: 700;
-    //border: 1px solid blueviolet;
+  margin: 0.1rem 0;
+  padding: 0;
+  width: max-content;
+  font-size: 0.5em;
+  font-weight: 700;
+  //border: 1px solid blueviolet;
 }
 
 .person__title {
-    margin: 0;
-    padding: 0;
-    width: max-content;
-    font-size: 0.425em;
-    //border: 1px solid yellowgreen;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  font-size: 0.425em;
+  //border: 1px solid yellowgreen;
 }
