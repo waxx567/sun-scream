@@ -351,6 +351,7 @@ h1 {
 
 @media screen and (min-width: 52rem) {
   .features-container {
+    padding-top: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -359,12 +360,16 @@ h1 {
   padding-bottom: 4rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: stretch;
   border: 2px solid fuchsia;
 }
 
 .feature > * {
   border: 1px solid green;
+}
+
+.features__icon {
+  max-width: revert;
 }
 
 .showcase-container {
