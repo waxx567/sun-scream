@@ -342,6 +342,9 @@ h1 {
   .features-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+    column-gap: 3rem;
+    padding-inline: 2rem;
   }
 }
 .features-container > * {
@@ -352,6 +355,11 @@ h1 {
   margin-bottom: 5rem;
 }
 
+@media screen and (min-width: 52rem) {
+  .features-container > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
 .feature {
   height: 14rem;
   display: flex;
@@ -361,6 +369,11 @@ h1 {
   border: 2px solid fuchsia;
 }
 
+@media screen and (min-width: 34rem) {
+  .feature {
+    height: 16rem;
+  }
+}
 @media screen and (min-width: 52rem) {
   .feature {
     padding-bottom: 0;
@@ -377,6 +390,11 @@ h1 {
   justify-content: center;
 }
 
+@media screen and (min-width: 34rem) {
+  .features-icon {
+    height: 6rem;
+  }
+}
 @media screen and (min-width: 52rem) {
   .features-icon {
     height: 8rem;
@@ -412,6 +430,7 @@ h1 {
 }
 @media screen and (min-width: 52rem) {
   .features__text {
+    font-size: 0.9em;
     padding: 0.5rem 0 0;
   }
 }

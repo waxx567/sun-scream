@@ -14,6 +14,9 @@
   .features-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+    column-gap: 3rem;
+    padding-inline: 2rem;
   }
 }
 
@@ -25,6 +28,12 @@
   margin-bottom: 5rem;
 }
 
+@include breakpoint(lg) {
+  .features-container > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
 .feature {
   height: 14rem;
   display: flex;
@@ -32,6 +41,12 @@
   align-items: center;
   justify-content: space-around;
   border: 2px solid fuchsia;
+}
+
+@include breakpoint(med) {
+  .feature {
+    height: 16rem;
+  }
 }
 
 @include breakpoint(lg) {
@@ -49,6 +64,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@include breakpoint(med) {
+  .features-icon {
+    height: 6rem;
+  }
 }
 
 @include breakpoint(lg) {
@@ -89,6 +110,7 @@
 
 @include breakpoint(lg) {
   .features__text {
+    font-size: 0.9em;
     padding: 0.5rem 0 0;
   }
 }
