@@ -408,19 +408,21 @@ h1 {
   }
 }
 .showcase-container {
-  padding: 10rem 1rem 0;
+  padding: 1rem;
+  padding-top: 6rem;
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 34rem) {
   .showcase-container {
     padding: 3rem;
+    padding-top: 10rem;
     justify-content: space-between;
   }
 }
 @media screen and (min-width: 52rem) {
   .showcase-container {
-    padding: 5rem 0;
+    padding: 13rem 0;
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
   }
