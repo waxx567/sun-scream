@@ -14,7 +14,10 @@
     padding-inline: 2rem;
   }
   @include breakpoint(xl) {
-    margin-top: -9rem;
+    margin-top: -10rem;
+  }
+  @include breakpoint(xxl) {
+    margin-top: -15rem;
   }
   //border: 1px solid yellow;
 }
