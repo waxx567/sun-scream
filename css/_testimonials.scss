@@ -1,6 +1,10 @@
 .testimonials-container {
   position: relative;
   padding: 9rem 3rem 0;
+
+  @include breakpoint(xxl) {
+    padding: 0 6rem;
+  }
   //border: 1px solid blue;
 }
 
@@ -23,8 +27,8 @@
     left: 2rem;
   }
   @include breakpoint(xxl) {
-    top: 7.4rem;
-    left: 2rem;
+    top: -2.5rem;
+    left: 5rem;
   }
   //border: 1px solid springgreen;
 }

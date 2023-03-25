@@ -604,6 +604,11 @@ h1 {
   position: relative;
   padding: 9rem 3rem 0;
 }
+@media screen and (min-width: 82rem) {
+  .testimonials-container {
+    padding: 0 6rem;
+  }
+}
 
 .testimonial__graphic {
   position: absolute;
@@ -631,8 +636,8 @@ h1 {
 }
 @media screen and (min-width: 82rem) {
   .testimonial__graphic {
-    top: 7.4rem;
-    left: 2rem;
+    top: -2.5rem;
+    left: 5rem;
   }
 }
 
