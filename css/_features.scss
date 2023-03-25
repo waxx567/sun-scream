@@ -1,13 +1,14 @@
 .features-container {
   text-align: center;
   align-items: center;
-  //border: 1px solid yellow;
-}
 
-@include breakpoint(med) {
-  .features-container {
-    padding-top: 5rem;
+  @include breakpoint(med) {
+    padding-top: 0rem;
   }
+  @include breakpoint(lg) {
+    margin-top: -6rem;
+  }
+  //border: 1px solid yellow;
 }
 
 @include breakpoint(lg) {

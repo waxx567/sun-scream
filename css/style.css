@@ -283,17 +283,22 @@ button:hover {
 }
 @media screen and (min-width: 34rem) {
   .intro-content {
-    bottom: 15rem;
+    bottom: 14rem;
   }
 }
 @media screen and (min-width: 53rem) {
   .intro-content {
-    bottom: 24rem;
+    bottom: 21rem;
   }
 }
 @media screen and (min-width: 63rem) {
   .intro-content {
-    bottom: 35rem;
+    bottom: 25rem;
+  }
+}
+@media screen and (min-width: 82rem) {
+  .intro-content {
+    bottom: 33rem;
   }
 }
 
@@ -346,12 +351,17 @@ h1 {
   text-align: center;
   align-items: center;
 }
-
 @media screen and (min-width: 34rem) {
   .features-container {
-    padding-top: 5rem;
+    padding-top: 0rem;
   }
 }
+@media screen and (min-width: 53rem) {
+  .features-container {
+    margin-top: -6rem;
+  }
+}
+
 @media screen and (min-width: 53rem) {
   .features-container {
     display: grid;
