@@ -14,17 +14,18 @@
     top: 8.75rem;
     left: 2.6rem;
   }
-
   @include breakpoint(lg) {
     top: 8.3rem;
     left: 2.25rem;
   }
-
   @include breakpoint(xl) {
     top: 8rem;
     left: 2rem;
   }
-
+  @include breakpoint(xxl) {
+    top: 7.4rem;
+    left: 2rem;
+  }
   //border: 1px solid springgreen;
 }
 
