@@ -288,7 +288,7 @@ button:hover {
 }
 @media screen and (min-width: 53rem) {
   .intro-content {
-    bottom: 25rem;
+    bottom: 24rem;
   }
 }
 @media screen and (min-width: 63rem) {
