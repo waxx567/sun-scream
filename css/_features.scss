@@ -29,10 +29,8 @@
 
 .features-container > *:not(:last-child) {
   margin-bottom: 5rem;
-}
 
-@include breakpoint(lg) {
-  .features-container > *:not(:last-child) {
+  @include breakpoint(lg) {
     margin-bottom: 0;
   }
 }
@@ -73,10 +71,8 @@
 
 .features-icon img {
   width: 85%;
-}
 
-@include breakpoint(lg) {
-  .features-icon img {
+  @include breakpoint(lg) {
     width: 100%;
   }
 }
@@ -93,29 +89,18 @@
 
 .features__text {
   padding: 1rem 2.5rem 0;
-}
 
-@include breakpoint(med) {
-  .features__text {
+  @include breakpoint(med) {
     max-width: 28rem;
   }
-}
-
-@include breakpoint(lg) {
-  .features__text {
+  @include breakpoint(lg) {
     font-size: 0.875em;
     padding: 0.5rem 0 0;
   }
-}
-
-@include breakpoint(xl) {
-  .features__text {
+  @include breakpoint(xl) {
     max-width: 28rem;
   }
-}
-
-@include breakpoint(xxl) {
-  .features__text {
+  @include breakpoint(xxl) {
     max-width: 32rem;
   }
 }

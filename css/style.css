@@ -385,12 +385,12 @@ h1 {
 .features-container > *:not(:last-child) {
   margin-bottom: 5rem;
 }
-
 @media screen and (min-width: 53rem) {
   .features-container > *:not(:last-child) {
     margin-bottom: 0;
   }
 }
+
 .feature {
   height: 14rem;
   display: flex;
@@ -434,12 +434,12 @@ h1 {
 .features-icon img {
   width: 85%;
 }
-
 @media screen and (min-width: 53rem) {
   .features-icon img {
     width: 100%;
   }
 }
+
 .features__heading {
   margin-top: 2rem;
 }
@@ -453,7 +453,6 @@ h1 {
 .features__text {
   padding: 1rem 2.5rem 0;
 }
-
 @media screen and (min-width: 34rem) {
   .features__text {
     max-width: 28rem;
@@ -475,6 +474,7 @@ h1 {
     max-width: 32rem;
   }
 }
+
 .showcase-container {
   padding: 1rem;
   padding-top: 10rem;
