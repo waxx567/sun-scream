@@ -281,6 +281,21 @@ button:hover {
   position: relative;
   bottom: 9rem;
 }
+@media screen and (min-width: 34rem) {
+  .intro-content {
+    bottom: 15rem;
+  }
+}
+@media screen and (min-width: 53rem) {
+  .intro-content {
+    bottom: 25rem;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .intro-content {
+    bottom: 35rem;
+  }
+}
 
 h1 {
   position: relative;
