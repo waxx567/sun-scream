@@ -3,10 +3,11 @@
   align-items: center;
 
   @include breakpoint(med) {
+    margin-top: 0rem;
     padding-top: 0rem;
   }
   @include breakpoint(lg) {
-    margin-top: -6rem;
+    margin-top: -8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 6rem;
@@ -42,19 +43,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  //border: 2px solid fuchsia;
-}
 
-@include breakpoint(med) {
-  .feature {
+  @include breakpoint(med) {
     height: 16rem;
   }
-}
-
-@include breakpoint(lg) {
-  .feature {
+  @include breakpoint(lg) {
     padding-bottom: 0;
   }
+  //border: 2px solid fuchsia;
 }
 /*
 .feature > * {
@@ -66,16 +62,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
 
-@include breakpoint(med) {
-  .features-icon {
+  @include breakpoint(med) {
     height: 6rem;
   }
-}
-
-@include breakpoint(lg) {
-  .features-icon {
+  @include breakpoint(lg) {
     height: 8rem;
   }
 }
@@ -101,7 +92,7 @@
 }
 
 .features__text {
-  padding: 1rem 1rem 0;
+  padding: 1rem 2.5rem 0;
 }
 
 @include breakpoint(med) {
