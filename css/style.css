@@ -359,11 +359,6 @@ h1 {
 @media screen and (min-width: 53rem) {
   .features-container {
     margin-top: -6rem;
-  }
-}
-
-@media screen and (min-width: 53rem) {
-  .features-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 6rem;
@@ -371,6 +366,12 @@ h1 {
     padding-inline: 2rem;
   }
 }
+@media screen and (min-width: 63rem) {
+  .features-container {
+    margin-top: -9rem;
+  }
+}
+
 .features-container > * {
   height: max-content;
 }

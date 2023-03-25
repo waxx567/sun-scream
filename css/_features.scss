@@ -7,18 +7,16 @@
   }
   @include breakpoint(lg) {
     margin-top: -6rem;
-  }
-  //border: 1px solid yellow;
-}
-
-@include breakpoint(lg) {
-  .features-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 6rem;
     column-gap: 3rem;
     padding-inline: 2rem;
   }
+  @include breakpoint(xl) {
+    margin-top: -9rem;
+  }
+  //border: 1px solid yellow;
 }
 
 .features-container > * {
