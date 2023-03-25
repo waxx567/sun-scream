@@ -2,8 +2,11 @@
   position: relative;
   padding: 9rem 3rem 0;
 
+  @include breakpoint(lg) {
+    padding-top: 0;
+  }
   @include breakpoint(xxl) {
-    padding: 0 6rem;
+    padding-inline: 6rem;
   }
   //border: 1px solid blue;
 }
@@ -19,12 +22,12 @@
     left: 2.6rem;
   }
   @include breakpoint(lg) {
-    top: 8.3rem;
+    top: -1.5rem;
     left: 2.25rem;
   }
   @include breakpoint(xl) {
-    top: 8rem;
-    left: 2rem;
+    top: -2rem;
+    left: 2.5rem;
   }
   @include breakpoint(xxl) {
     top: -2.5rem;
