@@ -18,8 +18,8 @@
   width: 5%;
 
   @include breakpoint(med) {
-    top: 8.75rem;
-    left: 2.6rem;
+    top: 8.5rem;
+    left: 6.5rem;
   }
   @include breakpoint(lg) {
     top: -1.5rem;
@@ -40,6 +40,9 @@
   margin: 1rem 0 2rem;
   //border: 1px solid lightseagreen;
 
+  @include breakpoint(med) {
+    padding-inline: 4rem;
+  }
   @include breakpoint(xl) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

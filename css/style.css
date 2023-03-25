@@ -353,7 +353,7 @@ h1 {
 }
 @media screen and (min-width: 34rem) {
   .features-container {
-    margin-top: 0rem;
+    margin-top: -2rem;
     padding-top: 0rem;
   }
 }
@@ -520,6 +520,11 @@ h1 {
   }
 }
 
+@media screen and (min-width: 34rem) {
+  .showcase-content {
+    padding: 3rem 0 0 4rem;
+  }
+}
 @media screen and (min-width: 53rem) {
   .showcase-content {
     display: flex;
@@ -549,6 +554,12 @@ h1 {
   padding: 0 0 0 2rem;
   font-size: 0.75em;
   line-height: 1.5;
+}
+@media screen and (min-width: 34rem) {
+  .showcase__text p {
+    font-size: 0.725em;
+    padding: 0 8rem 0 2rem;
+  }
 }
 @media screen and (min-width: 53rem) {
   .showcase__text p {
@@ -630,8 +641,8 @@ h1 {
 }
 @media screen and (min-width: 34rem) {
   .testimonial__graphic {
-    top: 8.75rem;
-    left: 2.6rem;
+    top: 8.5rem;
+    left: 6.5rem;
   }
 }
 @media screen and (min-width: 53rem) {
@@ -655,6 +666,11 @@ h1 {
 
 .testimonial-box {
   margin: 1rem 0 2rem;
+}
+@media screen and (min-width: 34rem) {
+  .testimonial-box {
+    padding-inline: 4rem;
+  }
 }
 @media screen and (min-width: 63rem) {
   .testimonial-box {
@@ -738,6 +754,11 @@ h1 {
 .signup-container button {
   padding: 1rem 4.5rem;
   font-size: 0.7em;
+}
+@media screen and (min-width: 34rem) {
+  .signup-container {
+    margin-inline: 3rem;
+  }
 }
 
 .signup-text {

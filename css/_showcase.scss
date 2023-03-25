@@ -43,6 +43,9 @@
 }
 
 .showcase-content {
+  @include breakpoint(med) {
+    padding: 3rem 0 0 4rem;
+  }
   @include breakpoint(lg) {
     display: flex;
     flex-direction: column;
@@ -80,6 +83,10 @@
     font-size: 0.75em;
     line-height: 1.5;
 
+    @include breakpoint(med) {
+      font-size: 0.725em;
+      padding: 0 8rem 0 2rem;
+    }
     @include breakpoint(lg) {
       font-size: 0.7em;
       padding: 0 3rem 0 2rem;

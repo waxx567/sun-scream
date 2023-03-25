@@ -3,7 +3,7 @@
   align-items: center;
 
   @include breakpoint(med) {
-    margin-top: 0rem;
+    margin-top: -2rem;
     padding-top: 0rem;
   }
   @include breakpoint(lg) {
