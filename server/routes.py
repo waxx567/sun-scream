@@ -1,3 +1,4 @@
+# In routes.py, we design a route that will collect the data, then serialize objects by giving them to the schema's dump method, which will provide the structured result. jsonify() produces a Response object with the mimetype application/json set.
 from flask import current_app,jsonify,request
 from app import create_app,db
 from models import Articles,articles_schema
