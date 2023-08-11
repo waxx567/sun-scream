@@ -1,4 +1,3 @@
-# The manage.py file allows us to conduct deployment tasks, initialize the database, check for schema changes, and then migrate it to the most recent version.
 def deploy():
 	"""Run deployment tasks."""
 	from app import create_app,db
@@ -24,3 +23,5 @@ deploy()
 # to interface with the current application object in some way. To solve
 # this, set up an application context with app.app_context().  See the
 # documentation for more information.
+
+# The manage.py file allows us to conduct deployment tasks, initialize the database, check for schema changes, and then migrate it to the most recent version.
