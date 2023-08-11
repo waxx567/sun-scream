@@ -1,3 +1,4 @@
+# For serialization, the objects article_schema and articles_schema are utilized. The first serializes a single article, while the second serializes a queryset.
 from app import db,ma
 from datetime import datetime
 
