@@ -20,6 +20,7 @@ function App() {
 
   },[])
 
+  // We pass the ArticleList component to the DOM after making it available, as well as the articles - the current state effect from the useState, which is then consumed as props.
   return (
     <div className="App container m-4">
     <div className="row">

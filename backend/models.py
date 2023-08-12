@@ -13,13 +13,12 @@ class Articles(db.Model):
         return "<Articles %r>" % self.title
 
 # Generate marshmallow Schemas from your models
-class ArticlesShema(ma.Schema):
+class ArticlesSchema(ma.Schema):
     class Meta:
         # Fields to expose
         fields = ("id","title", "body", "date")
 
 
-article_schema = ArticlesShema()
-articles_schema = ArticlesShema(many=True)
-
-# For serialization, the objects article_schema and articles_schema are utilized. The first serializes a single article, while the second serializes a queryset.
+# article_schema serializes a single article, articles_schema serializes a queryset
+article_schema = ArticlesSchema()
+articles_schema = ArticlesSchema(many=True)

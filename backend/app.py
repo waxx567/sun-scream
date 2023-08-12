@@ -15,7 +15,9 @@ cors = CORS()
 
 
 def create_app():
+
     """Application-factory pattern"""
+
     app = Flask(__name__)
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -30,5 +32,5 @@ def create_app():
     return app
 
 
-# The application factory pattern is described above. It is better to design your extensions and app factories so that the extension object is not initially connected to the application.
+# It is better to design your extensions and app factories so that the extension object is not initially connected to the application.
 # Any configuration, registration, or other setup required by the program will take place within the function, after which the application will be returned.

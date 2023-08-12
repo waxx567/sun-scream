@@ -5,8 +5,8 @@ from models import Articles,articles_schema
 # Create an application instance
 app = create_app()
 
-# Define a route to fetch the avaialable articles
-
+# Defines a route to collect the data, then serialize objects by giving them to the schema's dump method, which will provide the structured results 
+# jsonify() produces a Response object with the mimetype application/json set
 @app.route("/articles", methods=["GET"], strict_slashes=False)
 def articles():
 
@@ -19,5 +19,3 @@ def articles():
 if __name__ == "__main__":
 	app.run(debug=True)
 	
-
-# In the above snippet, we design a route that will collect the data, then serialize objects by giving them to the schema's dump method, which will provide the structured result. jsonify() produces a Response object with the mimetype application/json set.
